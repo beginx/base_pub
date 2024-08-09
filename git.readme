@@ -10,3 +10,9 @@ scp $HOME/.ssh/id_rsa.pub user@server:id_rsa.pub
 > ssh connnect
 
 cat $HOME/id_rsa.pub >> $HOME/.ssh/authorized_keys
+
+git config --global http.postBuffer 524288000
+
+git config --global http.version HTTP/1.1
+
+git config --global credential.helper 'cache --timeout 7200' timeout
