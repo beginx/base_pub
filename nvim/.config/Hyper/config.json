@@ -1,0 +1,14 @@
+{
+	"windowPosition": [
+		952,
+		0
+	],
+	"windowSize": [
+		952,
+		1001
+	],
+	"hyper": {
+		"plugins": "{\"plugins\":[\"hyperocean\",\"hyper-search\",\"hyperpower\",\"hyper-solarized-dark\"],\"localPlugins\":[]}",
+		"plugin-versions": "[[\"hyperocean\",\"1.1.1\"],[\"hyper-search\",\"0.0.10\"],[\"hyperpower\",\"1.0.0\"],[\"hyper-solarized-dark\",\"0.1.4\"]]"
+	}
+}

@@ -1,0 +1,12 @@
+git remote add master https://a17abaEa@bitbucket.org/a17abaEa/base_env.git
+
+
+=-=-=-
+
+ssh-keygen -t rsa
+
+scp $HOME/.ssh/id_rsa.pub user@server:id_rsa.pub
+
+> ssh connnect
+
+cat $HOME/id_rsa.pub >> $HOME/.ssh/authorized_keys

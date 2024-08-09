@@ -1,0 +1,22 @@
+116.120.58.105	coiner0 cin0
+116.120.58.104	coiner1	cin1
+
+211.226.204.74	godster gs
+58.229.163.235	dualflower df
+
+218.39.67.234  	pg pangyo
+218.39.67.230  	pg.tcore
+192.168.41.132	pg.core pangyo_core
+
+172.16.13.63	c.mac
+
+58.102.122.57  	br.gw	
+127.0.0.1		br.ui
+127.0.0.1		br.core
+
+172.16.11.112   copenstack c_os c.osl #OpenStack Liberty admin/Tadmin12@
+124.136.171.82  c.os2 c.osk #KeyStone Kilo admin/cloud000@
+58.102.122.165  test03 #KeyStone??
+124.136.171.70  vcenter # administrator@vsphere.local/Cloud000@
+
+45.32.31.129    ms

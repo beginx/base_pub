@@ -1,0 +1,11 @@
+#!/bin/sh -x
+
+PW=cloud000@
+expect <<EOF
+set timeout -1
+spawn scp cloud@c.ui:$1 .
+sleep 1
+expect "password:"
+        send "$PW\r"
+expect eof
+EOF

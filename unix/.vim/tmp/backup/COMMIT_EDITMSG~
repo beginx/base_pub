@@ -1,0 +1,31 @@
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# Committer: Shin Young Kang <basie@Shins-iMac.local>
+#
+# On branch master
+# Your branch is up-to-date with 'origin/master'.
+#
+# Changes to be committed:
+#	modified:   .vim/.netrwhist
+#	new file:   .vim/.skeleton.html
+#	new file:   .vim/bundle/FuzzyFinder
+#	new file:   .vim/bundle/Vundle.vim
+#	new file:   .vim/bundle/command-t
+#	new file:   .vim/bundle/nerdtree
+#	new file:   .vim/bundle/syntastic
+#	new file:   .vim/bundle/vim-colorschemes
+#	new file:   .vim/bundle/vim-javascript
+#	new file:   .vim/bundle/vim-powerline
+#	new file:   .vim/bundle/vundle
+#	new file:   .vim/bundle/youcompleteme
+#	new file:   .vim/plugin/vifm.vim
+#	new file:   .vim/tmp/backup/.vimrc~
+#	new file:   .vim/tmp/swap/.vimrc.swp
+#	new file:   .vim/tmp/undo/%Users%basie%.vimrc
+#	new file:   darwin/.vimrc
+#
+# Changes not staged for commit:
+#	modified:   .vim/bundle/FuzzyFinder (untracked content)
+#

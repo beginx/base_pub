@@ -1,0 +1,1200 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/7a6202b/
+$USERCNF	.vimrc	/^let $USERCNF = $VIM.'\/env\/vim\/user.vim'$/;"	v
+$USERCNF	vim/user.vim	/^let $USERCNF = $VIM.'\/env\/vim\/user.vim'$/;"	v
+,html	.vimrc	/^nnoremap ,html :-1read $HOME\/.vim\/.skeleton.html<CR>3jwf>a$/;"	m
+,html	config/nvim/init.vim	/^nnoremap ,html :-1read $HOME\/.vim\/.skeleton.html<CR>3jwf>a$/;"	m
+,html	darwin/.vimrc	/^nnoremap ,html :-1read $HOME\/.vim\/.skeleton.html<CR>3jwf>a$/;"	m
+,html	nvim/.config/nvim/init.vim	/^nnoremap ,html :-1read $HOME\/.vim\/.skeleton.html<CR>3jwf>a$/;"	m
+,html	nvim/.vimrc	/^nnoremap ,html :-1read $HOME\/.vim\/.skeleton.html<CR>3jwf>a$/;"	m
+,html	unix/.vimrc	/^nnoremap ,html :-1read $HOME\/.vim\/.skeleton.html<CR>3jwf>a$/;"	m
+,html	vim/user.vim	/^nnoremap ,html :-1read $HOME\/.vim\/.skeleton.html<CR>3jwf>a$/;"	m
+0	nvim/.config/Hyper/config.json	/^		952,$/;"	n	array:windowPosition
+0	nvim/.config/Hyper/config.json	/^		952,$/;"	n	array:windowSize
+1	nvim/.config/Hyper/config.json	/^		0$/;"	n	array:windowPosition
+1	nvim/.config/Hyper/config.json	/^		1001$/;"	n	array:windowSize
+<2-LeftMouse>	.vim/plugin/mru.vim	/^    nnoremap <buffer> <silent> <2-LeftMouse>$/;"	m
+<C-p>	.vimrc	/^nnoremap <C-p> :Unite file_rec\/async<cr>$/;"	m
+<C-p>	config/nvim/init.vim	/^imap <C-p> <Esc>:w<CR>:!python3 %<CR>$/;"	m
+<C-p>	nvim/.config/nvim/init.vim	/^imap <C-p> <Esc>:w<CR>:!python3 %<CR>$/;"	m
+<C-p>	nvim/.vimrc	/^imap <C-p> <Esc>:w<CR>:!python3 %<CR>$/;"	m
+<CR>	.vim/plugin/mru.vim	/^    nnoremap <buffer> <silent> <CR>$/;"	m
+<CR>	.vim/plugin/mru.vim	/^    vnoremap <buffer> <silent> <CR>$/;"	m
+<F1>	.vimrc	/^	inoremap <F1> <ESC>$/;"	m
+<F1>	.vimrc	/^	nnoremap <F1> <ESC>$/;"	m
+<F1>	.vimrc	/^	vnoremap <F1> <ESC>$/;"	m
+<F1>	darwin/.vimrc	/^	inoremap <F1> <ESC>$/;"	m
+<F1>	darwin/.vimrc	/^	nnoremap <F1> <ESC>$/;"	m
+<F1>	darwin/.vimrc	/^	vnoremap <F1> <ESC>$/;"	m
+<F1>	unix/.vimrc	/^	inoremap <F1> <ESC>$/;"	m
+<F1>	unix/.vimrc	/^	nnoremap <F1> <ESC>$/;"	m
+<F1>	unix/.vimrc	/^	vnoremap <F1> <ESC>$/;"	m
+<F5>	.vimrc	/^	map <F5> :Run<CR>$/;"	m
+<F5>	darwin/.vimrc	/^	map <F5> :Run<CR>$/;"	m
+<F5>	unix/.vimrc	/^	map <F5> :Run<CR>$/;"	m
+<S-CR>	.vim/plugin/mru.vim	/^    nnoremap <buffer> <silent> <S-CR>$/;"	m
+<S-CR>	.vim/plugin/mru.vim	/^    vnoremap <buffer> <silent> <S-CR>$/;"	m
+<cr>	.vim/autoload/plug.vim	/^    nnoremap <silent> <buffer> <cr> :silent! call <SID>preview_commit()<cr>$/;"	m
+<leader><space>	.vimrc	/^	nmap <leader><space> :noh<cr>$/;"	m
+<leader><space>	darwin/.vimrc	/^	nmap <leader><space> :noh<cr>$/;"	m
+<leader><space>	unix/.vimrc	/^	nmap <leader><space> :noh<cr>$/;"	m
+<leader>=	.vimrc	/^	nnoremap <leader>= ggVG=$/;"	m
+<leader>=	darwin/.vimrc	/^	nnoremap <leader>= ggVG=$/;"	m
+<leader>=	unix/.vimrc	/^	nnoremap <leader>= ggVG=$/;"	m
+<leader>ev	.vimrc	/^	nnoremap <leader>ev <C-w>$/;"	m
+<leader>ev	darwin/.vimrc	/^	nnoremap <leader>ev <C-w>$/;"	m
+<leader>ev	unix/.vimrc	/^	nnoremap <leader>ev <C-w>$/;"	m
+<leader>l	.vimrc	/^nnoremap <leader>l :Ag $/;"	m
+<leader>p	.vimrc	/^	nnoremap <leader>p :set paste<cr> $/;"	m
+<leader>p	darwin/.vimrc	/^	nnoremap <leader>p :set paste<cr> $/;"	m
+<leader>p	unix/.vimrc	/^	nnoremap <leader>p :set paste<cr> $/;"	m
+<leader>r	.vimrc	/^nnoremap <leader>r :CtrlP $/;"	m
+<space>	.vimrc	/^	nnoremap <space> za "fold$/;"	m
+<space>	darwin/.vimrc	/^	nnoremap <space> za "fold$/;"	m
+<space>	unix/.vimrc	/^	nnoremap <space> za "fold$/;"	m
+<space>/	.vimrc	/^nnoremap <space>\/ :Unite grep:.<cr>$/;"	m
+<space>s	.vimrc	/^nnoremap <space>s :Unite -quick-match buffer<cr>$/;"	m
+<space>y	.vimrc	/^nnoremap <space>y :Unite history\/yank<cr>$/;"	m
+APP_DIR	fabric/osec/ui_ser_work/fabfile.py	/^APP_DIR = '%s\/app' % PROJECT_DIR$/;"	v
+AWS_EC2_01	fabric/osec/ui_ser_work/fabfile.py	/^AWS_EC2_01 = 'pg:10022'  # Running$/;"	v
+Agrep	.vim/plugin/grep.vim	/^command! -nargs=* -complete=file Agrep$/;"	c
+Agrep	unix/.vim/plugin/grep.vim	/^command! -nargs=* -complete=file Agrep$/;"	c
+AgrepAdd	.vim/plugin/grep.vim	/^command! -nargs=* -complete=file AgrepAdd$/;"	c
+AgrepAdd	unix/.vim/plugin/grep.vim	/^command! -nargs=* -complete=file AgrepAdd$/;"	c
+Agrep_Path	.vim/plugin/grep.vim	/^    let Agrep_Path = 'agrep'$/;"	v
+Agrep_Path	unix/.vim/plugin/grep.vim	/^    let Agrep_Path = 'agrep'$/;"	v
+AnonymousFunction5af3608e0100	gulp_file/gulpfile.js	/^gulp.task('task_docs', function () {$/;"	f
+AnonymousFunction5af3608e0200	gulp_file/gulpfile.js	/^gulp.task('torrent', function () {$/;"	f
+AnonymousFunction5af3608e0300	gulp_file/gulpfile.js	/^gulp.task('Raw', function () {$/;"	f
+AnonymousFunction5af3608e0400	gulp_file/gulpfile.js	/^gulp.task('Movies', function () {$/;"	f
+AnonymousFunction5af3608e0500	gulp_file/gulpfile.js	/^gulp.task('Pictures', function () {$/;"	f
+AnonymousFunctiona443ad9b0100	unix/gulpfile.js	/^    file.walkSync(src, function(dirPath, dirs, files) {$/;"	f
+AnonymousFunctiona443ad9b0200	unix/gulpfile.js	/^            files = files.sort(function(a, b) {$/;"	f
+AnonymousFunctiona443ad9b0300	unix/gulpfile.js	/^                .filter(function(value) {$/;"	f
+AnonymousFunctiona443ad9b0400	unix/gulpfile.js	/^                .map(function(value) {$/;"	f
+AnonymousFunctiona443ad9b0500	unix/gulpfile.js	/^            temp = files.filter(function(value) {$/;"	f
+AnonymousFunctiona443ad9b0600	unix/gulpfile.js	/^            temp = files.filter(function(value) {$/;"	f
+AnonymousFunctiona443ad9b0700	unix/gulpfile.js	/^            temp = files.filter(function(value) {$/;"	f
+AnonymousFunctiona443ad9b0800	unix/gulpfile.js	/^            temp = files.filter(function(value) {$/;"	f
+AnonymousFunctiona443ad9b0900	unix/gulpfile.js	/^            temp = files.filter(function(value) {$/;"	f
+AnonymousFunctiona443ad9b0a00	unix/gulpfile.js	/^            temp = files.filter(function(value) {$/;"	f
+AnonymousFunctiona443ad9b0b00	unix/gulpfile.js	/^            temp = files.filter(function(value) {$/;"	f
+AnonymousFunctiona443ad9b0c00	unix/gulpfile.js	/^            temp = files.filter(function(value) {$/;"	f
+AnonymousFunctiona443ad9b0d00	unix/gulpfile.js	/^            temp = files.filter(function(value) {$/;"	f
+AnonymousFunctiona443ad9b0e00	unix/gulpfile.js	/^            temp = files.filter(function(value) {$/;"	f
+AnonymousFunctiona443ad9b0f00	unix/gulpfile.js	/^            temp = files.filter(function(value) {$/;"	f
+AnonymousFunctiona443ad9b1000	unix/gulpfile.js	/^            temp = files.filter(function(value) {$/;"	f
+AnonymousFunctiona443ad9b1100	unix/gulpfile.js	/^            temp = files.filter(function(value) {$/;"	f
+AnonymousFunctiona443ad9b1200	unix/gulpfile.js	/^            temp = files.filter(function(value) {$/;"	f
+AnonymousFunctiona443ad9b1300	unix/gulpfile.js	/^    return plugins.rename(function (path) {$/;"	f
+AnonymousFunctiona443ad9b1400	unix/gulpfile.js	/^gulp.task('bump', function () {$/;"	f
+AnonymousFunctiona443ad9b1500	unix/gulpfile.js	/^gulp.task('increment-version',['site-url'],  function(){$/;"	f
+AnonymousFunctiona443ad9b1600	unix/gulpfile.js	/^gulp.task('change-version-template',['bump','increment-version'], function() {$/;"	f
+AnonymousFunctiona443ad9b1700	unix/gulpfile.js	/^gulp.task('site-pack-dev', function(){$/;"	f
+AnonymousFunctiona443ad9b1800	unix/gulpfile.js	/^gulp.task('site-pack-pg', function(){$/;"	f
+AnonymousFunctiona443ad9b1900	unix/gulpfile.js	/^gulp.task('site-pack-tg', function(){$/;"	f
+AnonymousFunctiona443ad9b1a00	unix/gulpfile.js	/^gulp.task('site-pack-br', function(){$/;"	f
+AnonymousFunctiona443ad9b1b00	unix/gulpfile.js	/^gulp.task('site-pack-brl', function(){$/;"	f
+AnonymousFunctiona443ad9b1c00	unix/gulpfile.js	/^gulp.task('site-url',  function() {$/;"	f
+AnonymousFunctiona443ad9b1d00	unix/gulpfile.js	/^gulp.task('clean-dev', function() {$/;"	f
+AnonymousFunctiona443ad9b1e00	unix/gulpfile.js	/^gulp.task('clean-prod', function() {$/;"	f
+AnonymousFunctiona443ad9b1f00	unix/gulpfile.js	/^    del(paths.distProd, function() {$/;"	f	function:AnonymousFunctiona443ad9b1e00
+AnonymousFunctiona443ad9b2000	unix/gulpfile.js	/^gulp.task('clean-scripts', function() {$/;"	f
+AnonymousFunctiona443ad9b2100	unix/gulpfile.js	/^    del(paths.distScripts, function() {$/;"	f	function:AnonymousFunctiona443ad9b2000
+AnonymousFunctiona443ad9b2200	unix/gulpfile.js	/^gulp.task('clean-styles', function() {$/;"	f
+AnonymousFunctiona443ad9b2300	unix/gulpfile.js	/^    del(paths.distStyles, function() {$/;"	f	function:AnonymousFunctiona443ad9b2200
+AnonymousFunctiona443ad9b2400	unix/gulpfile.js	/^gulp.task('clean-images', function() {$/;"	f
+AnonymousFunctiona443ad9b2500	unix/gulpfile.js	/^    del(paths.distImages, function() {$/;"	f	function:AnonymousFunctiona443ad9b2400
+AnonymousFunctiona443ad9b2600	unix/gulpfile.js	/^gulp.task('watch-dev', ['clean-build-app-dev' ], function() {$/;"	f
+AnonymousFunctiona443ad9b2700	unix/gulpfile.js	/^    gulp.watch(paths.scripts, function() {$/;"	f
+AnonymousFunctiona443ad9b2800	unix/gulpfile.js	/^    gulp.watch(paths.partials, function() {$/;"	f
+AnonymousFunctiona443ad9b2900	unix/gulpfile.js	/^    gulp.watch(paths.styles, function() {$/;"	f
+AnonymousFunctiona443ad9b2a00	unix/gulpfile.js	/^gulp.task('watch-prod', ['clean-build-app-prod' ], function() {$/;"	f
+AnonymousFunctiona443ad9b2b00	unix/gulpfile.js	/^    gulp.watch(paths.scripts, function() {$/;"	f
+AnonymousFunctiona443ad9b2c00	unix/gulpfile.js	/^    gulp.watch(paths.partials, function() {$/;"	f
+AnonymousFunctiona443ad9b2d00	unix/gulpfile.js	/^    gulp.watch(paths.styles, function() {$/;"	f
+Bgrep	.vim/plugin/grep.vim	/^command! -nargs=* Bgrep$/;"	c
+Bgrep	unix/.vim/plugin/grep.vim	/^command! -nargs=* Bgrep$/;"	c
+BgrepAdd	.vim/plugin/grep.vim	/^command! -nargs=* BgrepAdd$/;"	c
+BgrepAdd	unix/.vim/plugin/grep.vim	/^command! -nargs=* BgrepAdd$/;"	c
+D	.vim/autoload/plug.vim	/^  nnoremap <silent> <buffer> D  :PlugDiff<cr>$/;"	m
+DiffVifm	.vim/plugin/vifm.vim	/^command! -bar -nargs=* -complete=dir DiffVifm :call s:StartVifm('vert diffsplit', <f-args>)$/;"	c
+DiffVifm	unix/.vim/plugin/vifm.vim	/^command! -bar -nargs=* -complete=dir DiffVifm :call s:StartVifm('vert diffsplit', <f-args>)$/;"	c
+EditVifm	.vim/plugin/vifm.vim	/^command! -bar -nargs=* -complete=dir EditVifm :call s:StartVifm('edit', <f-args>)$/;"	c
+EditVifm	unix/.vim/plugin/vifm.vim	/^command! -bar -nargs=* -complete=dir EditVifm :call s:StartVifm('edit', <f-args>)$/;"	c
+Egrep	.vim/plugin/grep.vim	/^command! -nargs=* -complete=file Egrep$/;"	c
+Egrep	unix/.vim/plugin/grep.vim	/^command! -nargs=* -complete=file Egrep$/;"	c
+EgrepAdd	.vim/plugin/grep.vim	/^command! -nargs=* -complete=file EgrepAdd$/;"	c
+EgrepAdd	unix/.vim/plugin/grep.vim	/^command! -nargs=* -complete=file EgrepAdd$/;"	c
+Egrep_Path	.vim/plugin/grep.vim	/^    let Egrep_Path = 'egrep'$/;"	v
+Egrep_Path	unix/.vim/plugin/grep.vim	/^    let Egrep_Path = 'egrep'$/;"	v
+Fgrep	.vim/plugin/grep.vim	/^command! -nargs=* -complete=file Fgrep$/;"	c
+Fgrep	unix/.vim/plugin/grep.vim	/^command! -nargs=* -complete=file Fgrep$/;"	c
+FgrepAdd	.vim/plugin/grep.vim	/^command! -nargs=* -complete=file FgrepAdd$/;"	c
+FgrepAdd	unix/.vim/plugin/grep.vim	/^command! -nargs=* -complete=file FgrepAdd$/;"	c
+Fgrep_Path	.vim/plugin/grep.vim	/^    let Fgrep_Path = 'fgrep'$/;"	v
+Fgrep_Path	unix/.vim/plugin/grep.vim	/^    let Fgrep_Path = 'fgrep'$/;"	v
+Find	config/nvim/init.vim	/^command! -bang -nargs=* Find call fzf#vim#grep('rg --column --line-number --no-heading --fixed-s/;"	c
+Find	nvim/.config/nvim/init.vim	/^command! -bang -nargs=* Find call fzf#vim#grep('rg --column --line-number --no-heading --fixed-s/;"	c
+Find	nvim/.vimrc	/^command! -bang -nargs=* Find call fzf#vim#grep('rg --column --line-number --no-heading --fixed-s/;"	c
+GETPWD	alogin/alogin_env.sh	/^function GETPWD()$/;"	f
+Grep	.vim/plugin/grep.vim	/^command! -nargs=* -complete=file Grep$/;"	c
+Grep	unix/.vim/plugin/grep.vim	/^command! -nargs=* -complete=file Grep$/;"	c
+GrepAdd	.vim/plugin/grep.vim	/^command! -nargs=* -complete=file GrepAdd$/;"	c
+GrepAdd	unix/.vim/plugin/grep.vim	/^command! -nargs=* -complete=file GrepAdd$/;"	c
+GrepArgs	.vim/plugin/grep.vim	/^command! -nargs=* GrepArgs$/;"	c
+GrepArgs	unix/.vim/plugin/grep.vim	/^command! -nargs=* GrepArgs$/;"	c
+GrepArgsAdd	.vim/plugin/grep.vim	/^command! -nargs=* GrepArgsAdd$/;"	c
+GrepArgsAdd	unix/.vim/plugin/grep.vim	/^command! -nargs=* GrepArgsAdd$/;"	c
+GrepBuffer	.vim/plugin/grep.vim	/^command! -nargs=* GrepBuffer$/;"	c
+GrepBuffer	unix/.vim/plugin/grep.vim	/^command! -nargs=* GrepBuffer$/;"	c
+GrepBufferAdd	.vim/plugin/grep.vim	/^command! -nargs=* GrepBufferAdd$/;"	c
+GrepBufferAdd	unix/.vim/plugin/grep.vim	/^command! -nargs=* GrepBufferAdd$/;"	c
+Grep_Cygwin_Find	.vim/plugin/grep.vim	/^    let Grep_Cygwin_Find = 0$/;"	v
+Grep_Cygwin_Find	unix/.vim/plugin/grep.vim	/^    let Grep_Cygwin_Find = 0$/;"	v
+Grep_Default_Filelist	.vim/plugin/grep.vim	/^    let Grep_Default_Filelist = '*'$/;"	v
+Grep_Default_Filelist	unix/.vim/plugin/grep.vim	/^    let Grep_Default_Filelist = '*'$/;"	v
+Grep_Default_Options	.vim/plugin/grep.vim	/^    let Grep_Default_Options = ''$/;"	v
+Grep_Default_Options	.vimrc	/^let Grep_Default_Options = '-i'$/;"	v
+Grep_Default_Options	darwin/.vimrc	/^let Grep_Default_Options = '-rn'$/;"	v
+Grep_Default_Options	unix/.vim/plugin/grep.vim	/^    let Grep_Default_Options = ''$/;"	v
+Grep_Default_Options	unix/.vimrc	/^let Grep_Default_Options = '-rn'$/;"	v
+Grep_Default_Options	vim/user.vim	/^let Grep_Default_Options = '-i'$/;"	v
+Grep_Find_Path	.vim/plugin/grep.vim	/^    let Grep_Find_Path = 'find'$/;"	v
+Grep_Find_Path	unix/.vim/plugin/grep.vim	/^    let Grep_Find_Path = 'find'$/;"	v
+Grep_Find_Use_Xargs	.vim/plugin/grep.vim	/^    let Grep_Find_Use_Xargs = 1$/;"	v
+Grep_Find_Use_Xargs	unix/.vim/plugin/grep.vim	/^    let Grep_Find_Use_Xargs = 1$/;"	v
+Grep_Null_Device	.vim/plugin/grep.vim	/^        let Grep_Null_Device = 'NUL'$/;"	v
+Grep_Null_Device	.vim/plugin/grep.vim	/^        let Grep_Null_Device = '\/dev\/null'$/;"	v
+Grep_Null_Device	unix/.vim/plugin/grep.vim	/^        let Grep_Null_Device = 'NUL'$/;"	v
+Grep_Null_Device	unix/.vim/plugin/grep.vim	/^        let Grep_Null_Device = '\/dev\/null'$/;"	v
+Grep_OpenQuickfixWindow	.vim/plugin/grep.vim	/^    let Grep_OpenQuickfixWindow = 1$/;"	v
+Grep_OpenQuickfixWindow	.vimrc	/^let Grep_OpenQuickfixWindow = 1$/;"	v
+Grep_OpenQuickfixWindow	darwin/.vimrc	/^let Grep_OpenQuickfixWindow = 1$/;"	v
+Grep_OpenQuickfixWindow	unix/.vim/plugin/grep.vim	/^    let Grep_OpenQuickfixWindow = 1$/;"	v
+Grep_OpenQuickfixWindow	unix/.vimrc	/^let Grep_OpenQuickfixWindow = 1$/;"	v
+Grep_OpenQuickfixWindow	vim/user.vim	/^let Grep_OpenQuickfixWindow = 1$/;"	v
+Grep_Path	.vim/plugin/grep.vim	/^    let Grep_Path = 'grep'$/;"	v
+Grep_Path	.vimrc	/^let Grep_Path = '\/bin\/grep'$/;"	v
+Grep_Path	darwin/.vimrc	/^let Grep_Path = '\/usr\/\/local\/bin\/ggrep' $/;"	v
+Grep_Path	unix/.vim/plugin/grep.vim	/^    let Grep_Path = 'grep'$/;"	v
+Grep_Path	unix/.vimrc	/^let Grep_Path = '\/usr\/\/local\/bin\/ggrep' $/;"	v
+Grep_Path	vim/user.vim	/^let Grep_Path = '\/usr\/local\/bin\/ggrep'$/;"	v
+Grep_Shell_Escape_Char	.vim/plugin/grep.vim	/^        let Grep_Shell_Escape_Char = ''$/;"	v
+Grep_Shell_Escape_Char	.vim/plugin/grep.vim	/^        let Grep_Shell_Escape_Char = '\\'$/;"	v
+Grep_Shell_Escape_Char	unix/.vim/plugin/grep.vim	/^        let Grep_Shell_Escape_Char = ''$/;"	v
+Grep_Shell_Escape_Char	unix/.vim/plugin/grep.vim	/^        let Grep_Shell_Escape_Char = '\\'$/;"	v
+Grep_Shell_Quote_Char	.vim/plugin/grep.vim	/^        let Grep_Shell_Quote_Char = "'"$/;"	v
+Grep_Shell_Quote_Char	.vim/plugin/grep.vim	/^        let Grep_Shell_Quote_Char = ''$/;"	v
+Grep_Shell_Quote_Char	unix/.vim/plugin/grep.vim	/^        let Grep_Shell_Quote_Char = "'"$/;"	v
+Grep_Shell_Quote_Char	unix/.vim/plugin/grep.vim	/^        let Grep_Shell_Quote_Char = ''$/;"	v
+Grep_Skip_Dirs	.vim/plugin/grep.vim	/^    let Grep_Skip_Dirs = 'RCS CVS SCCS'$/;"	v
+Grep_Skip_Dirs	unix/.vim/plugin/grep.vim	/^    let Grep_Skip_Dirs = 'RCS CVS SCCS'$/;"	v
+Grep_Skip_Files	.vim/plugin/grep.vim	/^    let Grep_Skip_Files = '*~ *,v s.*'$/;"	v
+Grep_Skip_Files	.vimrc	/^let Grep_Skip_Files = '*.class *.bak *~ app.min.js *.log' $/;"	v
+Grep_Skip_Files	unix/.vim/plugin/grep.vim	/^    let Grep_Skip_Files = '*~ *,v s.*'$/;"	v
+Grep_Skip_Files	vim/user.vim	/^let Grep_Skip_Files = '*.class *.bak *~ app.min.js *.log' $/;"	v
+Grep_Xargs_Options	.vim/plugin/grep.vim	/^    let Grep_Xargs_Options = '-0'$/;"	v
+Grep_Xargs_Options	unix/.vim/plugin/grep.vim	/^    let Grep_Xargs_Options = '-0'$/;"	v
+Grep_Xargs_Path	.vim/plugin/grep.vim	/^    let Grep_Xargs_Path = 'xargs'$/;"	v
+Grep_Xargs_Path	unix/.vim/plugin/grep.vim	/^    let Grep_Xargs_Path = 'xargs'$/;"	v
+HiLink	.vim/plugin/python.vim	/^    command -nargs=+ HiLink hi def link <args>$/;"	c
+HiLink	.vim/plugin/python.vim	/^    command -nargs=+ HiLink hi link <args>$/;"	c
+IP	alogin/alogin_env.sh	/^function IP()$/;"	f
+IS_SPECIAL_HOST	alogin/alogin_env.sh	/^function IS_SPECIAL_HOST()$/;"	f
+L	.vim/autoload/plug.vim	/^    nnoremap <silent> <buffer> L :call <SID>status_load(line('.'))<cr>$/;"	m
+L	.vim/autoload/plug.vim	/^    xnoremap <silent> <buffer> L :call <SID>status_load(line('.'))<cr>$/;"	m
+MRU	.vim/plugin/mru.vim	/^command! -nargs=? -complete=customlist,s:MRU_Complete MRU$/;"	c
+MRU_Add_Menu	.vim/plugin/mru.vim	/^    let MRU_Add_Menu = 1$/;"	v
+MRU_Auto_Close	.vim/plugin/mru.vim	/^    let MRU_Auto_Close = 1$/;"	v
+MRU_Exclude_Files	.vim/plugin/mru.vim	/^    let MRU_Exclude_Files = ''$/;"	v
+MRU_File	.vim/plugin/mru.vim	/^                let MRU_File = $USERPROFILE . '\\_vim_mru_files'$/;"	v
+MRU_File	.vim/plugin/mru.vim	/^        let MRU_File = $HOME . '\/.vim_mru_files'$/;"	v
+MRU_File	.vim/plugin/mru.vim	/^        let MRU_File = $VIM . '\/_vim_mru_files'$/;"	v
+MRU_Filename_Format	.vim/plugin/mru.vim	/^    let MRU_Filename_Format = {$/;"	v
+MRU_Include_Files	.vim/plugin/mru.vim	/^    let MRU_Include_Files = ''$/;"	v
+MRU_Max_Entries	.vim/plugin/mru.vim	/^    let MRU_Max_Entries = 100$/;"	v
+MRU_Max_Menu_Entries	.vim/plugin/mru.vim	/^    let MRU_Max_Menu_Entries = 10$/;"	v
+MRU_Max_Submenu_Entries	.vim/plugin/mru.vim	/^    let MRU_Max_Submenu_Entries = 10$/;"	v
+MRU_Open_File_Use_Tabs	.vim/plugin/mru.vim	/^    let MRU_Open_File_Use_Tabs = 0$/;"	v
+MRU_Use_Current_Window	.vim/plugin/mru.vim	/^    let MRU_Use_Current_Window = 0$/;"	v
+MRU_Window_Height	.vim/plugin/mru.vim	/^    let MRU_Window_Height = 8$/;"	v
+MRU_Window_Open_Always	.vim/plugin/mru.vim	/^    let MRU_Window_Open_Always = 0$/;"	v
+MakeJavasTags	.vimrc	/^command! MakeJavasTags !ctags --languages=Java --exclude=".git" -f ~\/tmp\/javatags -R ~\/tros-r/;"	c
+MakeJavasTags	config/nvim/init.vim	/^command! MakeJavasTags !ctags --languages=Java --exclude=".git" -f ~\/.tag\/javatags -R ~\/tros\//;"	c
+MakeJavasTags	nvim/.config/nvim/init.vim	/^command! MakeJavasTags !ctags --languages=Java --exclude=".git" -f ~\/.tag\/javatags -R ~\/tros\//;"	c
+MakeJavasTags	nvim/.vimrc	/^command! MakeJavasTags !ctags --languages=Java --exclude=".git" -f ~\/.tag\/javatags -R ~\/tros\//;"	c
+MakeJavasTags	vim/user.vim	/^command! MakeJavasTags !ctags --languages=Java --exclude=".git" -f ~\/.tag\/javatags -R ~\/tros\//;"	c
+MakeJsTags	.vimrc	/^command! MakeJsTags !ctags --languages=JavaScript --exclude=".git" -f ~\/tmp\/jstags -R ~\/tros-/;"	c
+MakeJsTags	config/nvim/init.vim	/^command! MakeJsTags !ctags --languages=JavaScript --exclude=".git" -f ~\/.tag\/jstags -R ~\/tros/;"	c
+MakeJsTags	nvim/.config/nvim/init.vim	/^command! MakeJsTags !ctags --languages=JavaScript --exclude=".git" -f ~\/.tag\/jstags -R ~\/tros/;"	c
+MakeJsTags	nvim/.vimrc	/^command! MakeJsTags !ctags --languages=JavaScript --exclude=".git" -f ~\/.tag\/jstags -R ~\/tros/;"	c
+MakeJsTags	vim/user.vim	/^command! MakeJsTags !ctags --languages=JavaScript --exclude=".git" -f ~\/.tag\/jstags -R ~\/tros/;"	c
+MakeTags	config/nvim/init.vim	/^command! MakeTags !ctags -R .$/;"	c
+MakeTags	darwin/.vimrc	/^command! MakeTags !ctags -R .$/;"	c
+MakeTags	nvim/.config/nvim/init.vim	/^command! MakeTags !ctags -R .$/;"	c
+MakeTags	nvim/.vimrc	/^command! MakeTags !ctags -R .$/;"	c
+MakeTags	unix/.vimrc	/^command! MakeTags !ctags -R .$/;"	c
+Mru	.vim/plugin/mru.vim	/^command! -nargs=? -complete=customlist,s:MRU_Complete Mru$/;"	c
+O	.vim/plugin/mru.vim	/^    nnoremap <buffer> <silent> O$/;"	m
+O	.vim/plugin/mru.vim	/^    vnoremap <buffer> <silent> O$/;"	m
+PROJECT_DIR	fabric/osec/ui_ser_work/fabfile.py	/^PROJECT_DIR = '\/svc\/tros_v3\/process\/osec'$/;"	v
+Plug	.vim/autoload/plug.vim	/^  command! -nargs=+ -bar Plug call plug#(<args>)$/;"	c
+PlugClean	.vim/autoload/plug.vim	/^  command! -nargs=0 -bar -bang PlugClean call s:clean(<bang>0)$/;"	c
+PlugDiff	.vim/autoload/plug.vim	/^  command! -nargs=0 -bar PlugDiff    call s:diff()$/;"	c
+PlugInstall	.vim/autoload/plug.vim	/^  command! -nargs=* -bar -bang -complete=customlist,s:names PlugInstall call s:install(<bang>0, /;"	c
+PlugLOD	.vim/autoload/plug.vim	/^    augroup PlugLOD$/;"	a
+PlugSnapshot	.vim/autoload/plug.vim	/^  command! -nargs=? -bar -bang -complete=file PlugSnapshot call s:snapshot(<bang>0, <f-args>)$/;"	c
+PlugStatus	.vim/autoload/plug.vim	/^  command! -nargs=0 -bar PlugStatus  call s:status()$/;"	c
+PlugUpdate	.vim/autoload/plug.vim	/^  command! -nargs=* -bar -bang -complete=customlist,s:names PlugUpdate  call s:update(<bang>0, [/;"	c
+PlugUpgrade	.vim/autoload/plug.vim	/^  command! -nargs=0 -bar PlugUpgrade if s:upgrade() | execute 'source' s:esc(s:me) | endif$/;"	c
+Python2Syntax	.vim/plugin/python.vim	/^command! -buffer Python2Syntax let b:python_version_2 = 1 | let &syntax=&syntax$/;"	c
+Python3Syntax	.vim/plugin/python.vim	/^command! -buffer Python3Syntax let b:python_version_2 = 0 | let &syntax=&syntax$/;"	c
+Q	unix/gulpfile.js	/^var Q = require('q');$/;"	v
+R	.vim/autoload/plug.vim	/^  nnoremap <silent> <buffer> R  :call <SID>retry()<cr>$/;"	m
+Ragrep	.vim/plugin/grep.vim	/^command! -nargs=* -complete=file Ragrep$/;"	c
+Ragrep	unix/.vim/plugin/grep.vim	/^command! -nargs=* -complete=file Ragrep$/;"	c
+RagrepAdd	.vim/plugin/grep.vim	/^command! -nargs=* -complete=file RagrepAdd$/;"	c
+RagrepAdd	unix/.vim/plugin/grep.vim	/^command! -nargs=* -complete=file RagrepAdd$/;"	c
+Regrep	.vim/plugin/grep.vim	/^command! -nargs=* -complete=file Regrep$/;"	c
+Regrep	unix/.vim/plugin/grep.vim	/^command! -nargs=* -complete=file Regrep$/;"	c
+RegrepAdd	.vim/plugin/grep.vim	/^command! -nargs=* -complete=file RegrepAdd$/;"	c
+RegrepAdd	unix/.vim/plugin/grep.vim	/^command! -nargs=* -complete=file RegrepAdd$/;"	c
+Rfgrep	.vim/plugin/grep.vim	/^command! -nargs=* -complete=file Rfgrep$/;"	c
+Rfgrep	unix/.vim/plugin/grep.vim	/^command! -nargs=* -complete=file Rfgrep$/;"	c
+RfgrepAdd	.vim/plugin/grep.vim	/^command! -nargs=* -complete=file RfgrepAdd$/;"	c
+RfgrepAdd	unix/.vim/plugin/grep.vim	/^command! -nargs=* -complete=file RfgrepAdd$/;"	c
+Rgrep	.vim/plugin/grep.vim	/^command! -nargs=* -complete=file Rgrep$/;"	c
+Rgrep	unix/.vim/plugin/grep.vim	/^command! -nargs=* -complete=file Rgrep$/;"	c
+RgrepAdd	.vim/plugin/grep.vim	/^command! -nargs=* -complete=file RgrepAdd$/;"	c
+RgrepAdd	unix/.vim/plugin/grep.vim	/^command! -nargs=* -complete=file RgrepAdd$/;"	c
+S	.vim/autoload/plug.vim	/^  nnoremap <silent> <buffer> S  :PlugStatus<cr>$/;"	m
+SplitVifm	.vim/plugin/vifm.vim	/^command! -bar -nargs=* -complete=dir SplitVifm :call s:StartVifm('split', <f-args>)$/;"	c
+SplitVifm	unix/.vim/plugin/vifm.vim	/^command! -bar -nargs=* -complete=dir SplitVifm :call s:StartVifm('split', <f-args>)$/;"	c
+TRECV	alogin/alogin_env.sh	/^function TRECV() $/;"	f
+TabVifm	.vim/plugin/vifm.vim	/^command! -bar -nargs=* -complete=dir TabVifm :call s:StartVifm('tablast | tab drop', <f-args>)$/;"	c
+TabVifm	unix/.vim/plugin/vifm.vim	/^command! -bar -nargs=* -complete=dir TabVifm :call s:StartVifm('tablast | tab drop', <f-args>)$/;"	c
+U	.vim/autoload/plug.vim	/^  nnoremap <silent> <buffer> U  :call <SID>status_update()<cr>$/;"	m
+U	.vim/autoload/plug.vim	/^  xnoremap <silent> <buffer> U  :call <SID>status_update()<cr>$/;"	m
+VifmHelpAutoCmds	.vim/plugin/vifm.vim	/^augroup VifmHelpAutoCmds$/;"	a
+VifmHelpAutoCmds	unix/.vim/plugin/vifm.vim	/^augroup VifmHelpAutoCmds$/;"	a
+VsplitVifm	.vim/plugin/vifm.vim	/^command! -bar -nargs=* -complete=dir VsplitVifm :call s:StartVifm('vsplit', <f-args>)$/;"	c
+VsplitVifm	unix/.vim/plugin/vifm.vim	/^command! -bar -nargs=* -complete=dir VsplitVifm :call s:StartVifm('vsplit', <f-args>)$/;"	c
+X	.vim/autoload/plug.vim	/^    nnoremap <silent> <buffer> X :call <SID>revert()<cr>$/;"	m
+[[	.vim/autoload/plug.vim	/^  nnoremap <silent> <buffer> [[ :silent! call <SID>section('b')<cr>$/;"	m
+\x20swap window number is	darwin/.tmux.conf	/^bind E command-prompt -p " swap window number is :" " swap-window -t '%%'"$/;"	k
+\x20window name is	darwin/.tmux.conf	/^bind-key u command-prompt -p " window name is :" "rename-window '%%'"$/;"	k
+]]	.vim/autoload/plug.vim	/^  nnoremap <silent> <buffer> ]] :silent! call <SID>section('')<cr>$/;"	m
+_alogin_complete_	alogin/alogin_env.sh	/^function _alogin_complete_()$/;"	f
+_ssh	alogin/alogin_env.sh	/^_ssh()$/;"	f
+a	fabric/core.pg/dev_core_serv/fabfile.py	/^a = '\/Users\/basie\/tros_os_core\/tros-root\/tros-document\/target\/tros.war'$/;"	v
+a	fabric/core.pg/fabfile.py	/^a = '\/Users\/basie\/tros_os_core\/tros-root\/tros-document\/target\/tros.war'$/;"	v
+a	fabric/core.pg/pg_core_serv/fabfile.py	/^a = '\/Users\/basie\/tros_os_core\/tros-root\/tros-document\/target\/tros.war'$/;"	v
+a	fabric/osec/fabfile.py	/^def a():$/;"	f
+a	fabric/osec/ui_ser_work/fabfile.py	/^def a():$/;"	f
+a	fabric/osec_java/fabfile.py	/^a = "\/Users\/basie\/tros_os_core\/tros-root\/tros-api\/target\/tros.war"$/;"	v
+aaa	fabric/core.pg/dev_core_serv/fabfile.py	/^def aaa():$/;"	f
+aaa	fabric/core.pg/fabfile.py	/^def aaa():$/;"	f
+aaa	fabric/core.pg/pg_core_serv/fabfile.py	/^def aaa():$/;"	f
+aaa	fabric/osec_java/fabfile.py	/^def aaa():$/;"	f
+action_key	alogin/csshx.conf	/^action_key=\\021$/;"	k
+add_to_keychain	alogin/cvt_server_list.sh	/^function add_to_keychain()$/;"	f
+add_to_serverlist	alogin/cvt_server_list.sh	/^function add_to_serverlist()$/;"	f
+addalias	alogin/alogin_env.sh	/^function addalias()$/;"	f
+addhost	alogin/alogin_env.sh	/^function addhost()$/;"	f
+addsvr	alogin/alogin_env.sh	/^function addsvr()$/;"	f
+addsvr2	alogin/alogin_env.sh	/^function addsvr2()$/;"	f
+apiPattern	unix/gulpfile.js	/^var apiPattern=\/API_PATH\\s\\:(.*)\\,\\\/\\\/XXX\/g;$/;"	v
+args	unix/gulpfile.js	/^var args = require('yargs').argv;$/;"	v
+assetPath	unix/gulpfile.js	/^        assetPath: function (path, context) {$/;"	m	class:handlebarOpts.helpers
+b:current_syntax	.vim/plugin/python.vim	/^let b:current_syntax = "python"$/;"	v
+bowerFiles	unix/gulpfile.js	/^var bowerFiles = require('main-bower-files');$/;"	v
+builtAppDev	unix/gulpfile.js	/^pipes.builtAppDev = function() {$/;"	f	function:pipes
+builtAppProd	unix/gulpfile.js	/^pipes.builtAppProd = function() {$/;"	f	function:pipes
+builtAppScriptsDev	unix/gulpfile.js	/^pipes.builtAppScriptsDev = function() {$/;"	f	function:pipes
+builtAppScriptsProd	unix/gulpfile.js	/^pipes.builtAppScriptsProd = function() {$/;"	f	function:pipes
+builtIndexDev	unix/gulpfile.js	/^pipes.builtIndexDev = function() {$/;"	f	function:pipes
+builtIndexProd	unix/gulpfile.js	/^pipes.builtIndexProd = function() {$/;"	f	function:pipes
+builtPartialsDev	unix/gulpfile.js	/^pipes.builtPartialsDev = function() {$/;"	f	function:pipes
+builtStylesDev	unix/gulpfile.js	/^pipes.builtStylesDev = function() {$/;"	f	function:pipes
+builtStylesProd	unix/gulpfile.js	/^pipes.builtStylesProd = function() {$/;"	f	function:pipes
+builtVendorScriptsDev	unix/gulpfile.js	/^pipes.builtVendorScriptsDev = function() {$/;"	f	function:pipes
+builtVendorScriptsProd	unix/gulpfile.js	/^pipes.builtVendorScriptsProd = function() {$/;"	f	function:pipes
+bump	unix/gulpfile.js	/^var bump = require('gulp-bump');$/;"	v
+callback.on_exit	.vim/plugin/vifm.vim	/^		function! callback.on_exit(id, code)$/;"	f
+callback.on_exit	unix/.vim/plugin/vifm.vim	/^		function! callback.on_exit(id, code)$/;"	f
+cbin	csh/uaoam_env.sh	/^alias	cbin='cd $UASYS_HOME\/bin'$/;"	a
+cdata	csh/uaoam_env.sh	/^alias	cdata='cd $UASYS_HOME\/data'$/;"	a
+cextlib	csh/uaoam_dev.sh	/^alias cextlib='cd $HOME\/uaoss\/extlib'$/;"	a
+cextpkg	csh/uaoam_dev.sh	/^alias cextpkg='cd $HOME\/uaoss\/extpkg'$/;"	a
+cftrd	csh/uaoam_dev.sh	/^alias cftrd='cd $UAOAM_DEV_HOME\/src\/ftrd'$/;"	a
+chaguard	csh/uaoam_dev.sh	/^alias chaguard='cd $HOME\/uaoss\/product\/HAGUARD\/src\/haguard'$/;"	a
+chgpwd	alogin/alogin_env.sh	/^function chgpwd()$/;"	f
+chgsvr	alogin/alogin_env.sh	/^function chgsvr()$/;"	f
+clean	gulp_file/gulpfile.js	/^var clean = require('gulp-clean');$/;"	v
+clib	csh/uaoam_env.sh	/^alias	clib='cd $UASYS_HOME\/lib'$/;"	a
+clog	csh/uaoam_env.sh	/^alias	clog='cd $UASYS_HOME\/log'$/;"	a
+clogib	csh/uaoam_dev.sh	/^alias clogib='cd $UAOAM_DEV_HOME\/src\/logib'$/;"	a
+clogmd	csh/uaoam_dev.sh	/^alias clogmd='cd $UAOAM_DEV_HOME\/src\/logmd'$/;"	a
+cluster_conn	alogin/alogin_env.sh	/^function cluster_conn()$/;"	f
+cmess	csh/uaoam_dev.sh	/^alias cmess='cd $UAOAM_DEV_HOME\/src\/messhand'$/;"	a
+cmmcd	csh/uaoam_dev.sh	/^alias cmmcd='cd $UAOAM_DEV_HOME\/src\/mmcd'$/;"	a
+cnmsib	csh/uaoam_dev.sh	/^alias cnmsib='cd $UAOAM_DEV_HOME\/src\/nmsib'$/;"	a
+cnotiib	csh/uaoam_dev.sh	/^alias cnotiib='cd $UAOAM_DEV_HOME\/src\/notiib'$/;"	a
+colors_name	.vim/colors/arstotzka.vim	/^let colors_name   = "Arstotzka"$/;"	v
+colors_name	.vim/colors/azure.vim	/^let colors_name   = "Azure"$/;"	v
+colors_name	.vim/colors/bold.vim	/^let colors_name   = "Bold"$/;"	v
+colors_name	.vim/colors/boxuk.vim	/^let colors_name   = "Box UK"$/;"	v
+colors_name	.vim/colors/carbonight-contrast.vim	/^let colors_name   = "Carbonight Contrast"$/;"	v
+colors_name	.vim/colors/carbonight.vim	/^let colors_name   = "Carbonight"$/;"	v
+colors_name	.vim/colors/chocolate.vim	/^let colors_name   = "Chocolate"$/;"	v
+colors_name	.vim/colors/crisp.vim	/^let colors_name   = "Crisp"$/;"	v
+colors_name	.vim/colors/darkside-contrast.vim	/^let colors_name   = "Darkside Contrast"$/;"	v
+colors_name	.vim/colors/darkside.vim	/^let colors_name   = "Darkside"$/;"	v
+colors_name	.vim/colors/earthsong-contrast.vim	/^let colors_name   = "Earthsong Contrast"$/;"	v
+colors_name	.vim/colors/earthsong-light.vim	/^let colors_name   = "Earthsong Light"$/;"	v
+colors_name	.vim/colors/earthsong.vim	/^let colors_name   = "Earthsong"$/;"	v
+colors_name	.vim/colors/freshcut-contrast.vim	/^let colors_name   = "FreshCut Contrast"$/;"	v
+colors_name	.vim/colors/freshcut.vim	/^let colors_name   = "FreshCut"$/;"	v
+colors_name	.vim/colors/frontier-contrast.vim	/^let colors_name   = "Frontier Contrast"$/;"	v
+colors_name	.vim/colors/frontier.vim	/^let colors_name   = "Frontier"$/;"	v
+colors_name	.vim/colors/github.vim	/^let colors_name   = "Github"$/;"	v
+colors_name	.vim/colors/gloom-contrast.vim	/^let colors_name   = "Gloom Contrast"$/;"	v
+colors_name	.vim/colors/gloom.vim	/^let colors_name   = "Gloom"$/;"	v
+colors_name	.vim/colors/glowfish-contrast.vim	/^let colors_name   = "Glowfish Contrast"$/;"	v
+colors_name	.vim/colors/glowfish.vim	/^let colors_name   = "Glowfish"$/;"	v
+colors_name	.vim/colors/goldfish-contrast.vim	/^let colors_name   = "Goldfish Contrast"$/;"	v
+colors_name	.vim/colors/goldfish.vim	/^let colors_name   = "Goldfish"$/;"	v
+colors_name	.vim/colors/grunge-contrast.vim	/^let colors_name   = "Grunge Contrast"$/;"	v
+colors_name	.vim/colors/grunge.vim	/^let colors_name   = "Grunge"$/;"	v
+colors_name	.vim/colors/halflife-contrast.vim	/^let colors_name   = "Halflife Contrast"$/;"	v
+colors_name	.vim/colors/halflife.vim	/^let colors_name   = "Halflife"$/;"	v
+colors_name	.vim/colors/heroku.vim	/^let colors_name   = "Heroku"$/;"	v
+colors_name	.vim/colors/hyrule-contrast.vim	/^let colors_name   = "Hyrule Contrast"$/;"	v
+colors_name	.vim/colors/hyrule.vim	/^let colors_name   = "Hyrule"$/;"	v
+colors_name	.vim/colors/iceberg-contrast.vim	/^let colors_name   = "Iceberg Contrast"$/;"	v
+colors_name	.vim/colors/iceberg.vim	/^let colors_name   = "Iceberg"$/;"	v
+colors_name	.vim/colors/juicy-contrast.vim	/^let colors_name   = "Juicy Contrast"$/;"	v
+colors_name	.vim/colors/juicy.vim	/^let colors_name   = "Juicy"$/;"	v
+colors_name	.vim/colors/keen-contrast.vim	/^let colors_name   = "Keen Contrast"$/;"	v
+colors_name	.vim/colors/keen.vim	/^let colors_name   = "Keen"$/;"	v
+colors_name	.vim/colors/kiwi.vim	/^let colors_name   = "Kiwi"$/;"	v
+colors_name	.vim/colors/laravel-contrast.vim	/^let colors_name   = "Laravel Contrast"$/;"	v
+colors_name	.vim/colors/laravel.vim	/^let colors_name   = "Laravel"$/;"	v
+colors_name	.vim/colors/lavender-contrast.vim	/^let colors_name   = "Lavender Contrast"$/;"	v
+colors_name	.vim/colors/lavender.vim	/^let colors_name   = "Lavender"$/;"	v
+colors_name	.vim/colors/legacy.vim	/^let colors_name   = "Legacy"$/;"	v
+colors_name	.vim/colors/mellow-contrast.vim	/^let colors_name   = "Mellow Contrast"$/;"	v
+colors_name	.vim/colors/mellow.vim	/^let colors_name   = "Mellow"$/;"	v
+colors_name	.vim/colors/mintchoc.vim	/^let colors_name   = "Mintchoc"$/;"	v
+colors_name	.vim/colors/mud-contrast.vim	/^let colors_name   = "Mud Contrast"$/;"	v
+colors_name	.vim/colors/mud.vim	/^let colors_name   = "Mud"$/;"	v
+colors_name	.vim/colors/otakon.vim	/^let colors_name   = "Otakon"$/;"	v
+colors_name	.vim/colors/pastel.vim	/^let colors_name   = "Pastel"$/;"	v
+colors_name	.vim/colors/patriot-contrast.vim	/^let colors_name   = "Patriot Contrast"$/;"	v
+colors_name	.vim/colors/patriot.vim	/^let colors_name   = "Patriot"$/;"	v
+colors_name	.vim/colors/peacock-contrast.vim	/^let colors_name   = "Peacock Contrast"$/;"	v
+colors_name	.vim/colors/peacock.vim	/^let colors_name   = "Peacock"$/;"	v
+colors_name	.vim/colors/peacocks-in-space.vim	/^let colors_name   = "Peacocks In Space"$/;"	v
+colors_name	.vim/colors/peel.vim	/^let colors_name   = "Peel"$/;"	v
+colors_name	.vim/colors/piggy.vim	/^let colors_name   = "Piggy"$/;"	v
+colors_name	.vim/colors/potpourri-contrast.vim	/^let colors_name   = "Potpourri Contrast"$/;"	v
+colors_name	.vim/colors/potpourri.vim	/^let colors_name   = "Potpourri"$/;"	v
+colors_name	.vim/colors/rainbow.vim	/^let colors_name   = "Rainbow"$/;"	v
+colors_name	.vim/colors/revelation-contrast.vim	/^let colors_name   = "Revelation Contrast"$/;"	v
+colors_name	.vim/colors/revelation.vim	/^let colors_name   = "Revelation"$/;"	v
+colors_name	.vim/colors/shrek.vim	/^let colors_name   = "Shrek"$/;"	v
+colors_name	.vim/colors/slate.vim	/^let colors_name   = "Slate"$/;"	v
+colors_name	.vim/colors/slime-contrast.vim	/^let colors_name   = "Slime Contrast"$/;"	v
+colors_name	.vim/colors/slime.vim	/^let colors_name   = "Slime"$/;"	v
+colors_name	.vim/colors/snappy-contrast.vim	/^let colors_name   = "Snappy Contrast"$/;"	v
+colors_name	.vim/colors/snappy-light.vim	/^let colors_name   = "Snappy Light"$/;"	v
+colors_name	.vim/colors/snappy.vim	/^let colors_name   = "Snappy"$/;"	v
+colors_name	.vim/colors/solarflare-contrast.vim	/^let colors_name   = "Solarflare Contrast"$/;"	v
+colors_name	.vim/colors/solarflare.vim	/^let colors_name   = "Solarflare"$/;"	v
+colors_name	.vim/colors/sourlick-contrast.vim	/^let colors_name   = "Sourlick Contrast"$/;"	v
+colors_name	.vim/colors/sourlick.vim	/^let colors_name   = "Sourlick"$/;"	v
+colors_name	.vim/colors/spearmint.vim	/^let colors_name   = "Spearmint"$/;"	v
+colors_name	.vim/colors/stark-contrast.vim	/^let colors_name   = "Stark Contrast"$/;"	v
+colors_name	.vim/colors/stark.vim	/^let colors_name   = "Stark"$/;"	v
+colors_name	.vim/colors/super.vim	/^let colors_name   = "Super"$/;"	v
+colors_name	.vim/colors/tonic.vim	/^let colors_name   = "Tonic"$/;"	v
+colors_name	.vim/colors/tribal.vim	/^let colors_name   = "Tribal"$/;"	v
+colors_name	.vim/colors/tron-contrast.vim	/^let colors_name   = "Tron Contrast"$/;"	v
+colors_name	.vim/colors/tron.vim	/^let colors_name   = "Tron"$/;"	v
+colors_name	.vim/colors/turnip-contrast.vim	/^let colors_name   = "Turnip Contrast"$/;"	v
+colors_name	.vim/colors/turnip.vim	/^let colors_name   = "Turnip"$/;"	v
+colors_name	.vim/colors/userscape.vim	/^let colors_name   = "Userscape"$/;"	v
+colors_name	.vim/colors/yule.vim	/^let colors_name   = "Yule"$/;"	v
+colors_name	.vim/colors/zacks-contrast.vim	/^let colors_name   = "Zacks Contrast"$/;"	v
+colors_name	.vim/colors/zacks.vim	/^let colors_name   = "Zacks"$/;"	v
+colors_name	unix/.vim/colors/arstotzka.vim	/^let colors_name   = "Arstotzka"$/;"	v
+colors_name	unix/.vim/colors/azure.vim	/^let colors_name   = "Azure"$/;"	v
+colors_name	unix/.vim/colors/bold.vim	/^let colors_name   = "Bold"$/;"	v
+colors_name	unix/.vim/colors/boxuk.vim	/^let colors_name   = "Box UK"$/;"	v
+colors_name	unix/.vim/colors/carbonight-contrast.vim	/^let colors_name   = "Carbonight Contrast"$/;"	v
+colors_name	unix/.vim/colors/carbonight.vim	/^let colors_name   = "Carbonight"$/;"	v
+colors_name	unix/.vim/colors/chocolate.vim	/^let colors_name   = "Chocolate"$/;"	v
+colors_name	unix/.vim/colors/crisp.vim	/^let colors_name   = "Crisp"$/;"	v
+colors_name	unix/.vim/colors/darkside-contrast.vim	/^let colors_name   = "Darkside Contrast"$/;"	v
+colors_name	unix/.vim/colors/darkside.vim	/^let colors_name   = "Darkside"$/;"	v
+colors_name	unix/.vim/colors/earthsong-contrast.vim	/^let colors_name   = "Earthsong Contrast"$/;"	v
+colors_name	unix/.vim/colors/earthsong-light.vim	/^let colors_name   = "Earthsong Light"$/;"	v
+colors_name	unix/.vim/colors/earthsong.vim	/^let colors_name   = "Earthsong"$/;"	v
+colors_name	unix/.vim/colors/freshcut-contrast.vim	/^let colors_name   = "FreshCut Contrast"$/;"	v
+colors_name	unix/.vim/colors/freshcut.vim	/^let colors_name   = "FreshCut"$/;"	v
+colors_name	unix/.vim/colors/frontier-contrast.vim	/^let colors_name   = "Frontier Contrast"$/;"	v
+colors_name	unix/.vim/colors/frontier.vim	/^let colors_name   = "Frontier"$/;"	v
+colors_name	unix/.vim/colors/github.vim	/^let colors_name   = "Github"$/;"	v
+colors_name	unix/.vim/colors/gloom-contrast.vim	/^let colors_name   = "Gloom Contrast"$/;"	v
+colors_name	unix/.vim/colors/gloom.vim	/^let colors_name   = "Gloom"$/;"	v
+colors_name	unix/.vim/colors/glowfish-contrast.vim	/^let colors_name   = "Glowfish Contrast"$/;"	v
+colors_name	unix/.vim/colors/glowfish.vim	/^let colors_name   = "Glowfish"$/;"	v
+colors_name	unix/.vim/colors/goldfish-contrast.vim	/^let colors_name   = "Goldfish Contrast"$/;"	v
+colors_name	unix/.vim/colors/goldfish.vim	/^let colors_name   = "Goldfish"$/;"	v
+colors_name	unix/.vim/colors/grunge-contrast.vim	/^let colors_name   = "Grunge Contrast"$/;"	v
+colors_name	unix/.vim/colors/grunge.vim	/^let colors_name   = "Grunge"$/;"	v
+colors_name	unix/.vim/colors/halflife-contrast.vim	/^let colors_name   = "Halflife Contrast"$/;"	v
+colors_name	unix/.vim/colors/halflife.vim	/^let colors_name   = "Halflife"$/;"	v
+colors_name	unix/.vim/colors/heroku.vim	/^let colors_name   = "Heroku"$/;"	v
+colors_name	unix/.vim/colors/hyrule-contrast.vim	/^let colors_name   = "Hyrule Contrast"$/;"	v
+colors_name	unix/.vim/colors/hyrule.vim	/^let colors_name   = "Hyrule"$/;"	v
+colors_name	unix/.vim/colors/iceberg-contrast.vim	/^let colors_name   = "Iceberg Contrast"$/;"	v
+colors_name	unix/.vim/colors/iceberg.vim	/^let colors_name   = "Iceberg"$/;"	v
+colors_name	unix/.vim/colors/juicy-contrast.vim	/^let colors_name   = "Juicy Contrast"$/;"	v
+colors_name	unix/.vim/colors/juicy.vim	/^let colors_name   = "Juicy"$/;"	v
+colors_name	unix/.vim/colors/keen-contrast.vim	/^let colors_name   = "Keen Contrast"$/;"	v
+colors_name	unix/.vim/colors/keen.vim	/^let colors_name   = "Keen"$/;"	v
+colors_name	unix/.vim/colors/kiwi.vim	/^let colors_name   = "Kiwi"$/;"	v
+colors_name	unix/.vim/colors/laravel-contrast.vim	/^let colors_name   = "Laravel Contrast"$/;"	v
+colors_name	unix/.vim/colors/laravel.vim	/^let colors_name   = "Laravel"$/;"	v
+colors_name	unix/.vim/colors/lavender-contrast.vim	/^let colors_name   = "Lavender Contrast"$/;"	v
+colors_name	unix/.vim/colors/lavender.vim	/^let colors_name   = "Lavender"$/;"	v
+colors_name	unix/.vim/colors/legacy.vim	/^let colors_name   = "Legacy"$/;"	v
+colors_name	unix/.vim/colors/mellow-contrast.vim	/^let colors_name   = "Mellow Contrast"$/;"	v
+colors_name	unix/.vim/colors/mellow.vim	/^let colors_name   = "Mellow"$/;"	v
+colors_name	unix/.vim/colors/mintchoc.vim	/^let colors_name   = "Mintchoc"$/;"	v
+colors_name	unix/.vim/colors/mud-contrast.vim	/^let colors_name   = "Mud Contrast"$/;"	v
+colors_name	unix/.vim/colors/mud.vim	/^let colors_name   = "Mud"$/;"	v
+colors_name	unix/.vim/colors/otakon.vim	/^let colors_name   = "Otakon"$/;"	v
+colors_name	unix/.vim/colors/pastel.vim	/^let colors_name   = "Pastel"$/;"	v
+colors_name	unix/.vim/colors/patriot-contrast.vim	/^let colors_name   = "Patriot Contrast"$/;"	v
+colors_name	unix/.vim/colors/patriot.vim	/^let colors_name   = "Patriot"$/;"	v
+colors_name	unix/.vim/colors/peacock-contrast.vim	/^let colors_name   = "Peacock Contrast"$/;"	v
+colors_name	unix/.vim/colors/peacock.vim	/^let colors_name   = "Peacock"$/;"	v
+colors_name	unix/.vim/colors/peacocks-in-space.vim	/^let colors_name   = "Peacocks In Space"$/;"	v
+colors_name	unix/.vim/colors/peel.vim	/^let colors_name   = "Peel"$/;"	v
+colors_name	unix/.vim/colors/piggy.vim	/^let colors_name   = "Piggy"$/;"	v
+colors_name	unix/.vim/colors/potpourri-contrast.vim	/^let colors_name   = "Potpourri Contrast"$/;"	v
+colors_name	unix/.vim/colors/potpourri.vim	/^let colors_name   = "Potpourri"$/;"	v
+colors_name	unix/.vim/colors/rainbow.vim	/^let colors_name   = "Rainbow"$/;"	v
+colors_name	unix/.vim/colors/revelation-contrast.vim	/^let colors_name   = "Revelation Contrast"$/;"	v
+colors_name	unix/.vim/colors/revelation.vim	/^let colors_name   = "Revelation"$/;"	v
+colors_name	unix/.vim/colors/shrek.vim	/^let colors_name   = "Shrek"$/;"	v
+colors_name	unix/.vim/colors/slate.vim	/^let colors_name   = "Slate"$/;"	v
+colors_name	unix/.vim/colors/slime-contrast.vim	/^let colors_name   = "Slime Contrast"$/;"	v
+colors_name	unix/.vim/colors/slime.vim	/^let colors_name   = "Slime"$/;"	v
+colors_name	unix/.vim/colors/snappy-contrast.vim	/^let colors_name   = "Snappy Contrast"$/;"	v
+colors_name	unix/.vim/colors/snappy-light.vim	/^let colors_name   = "Snappy Light"$/;"	v
+colors_name	unix/.vim/colors/snappy.vim	/^let colors_name   = "Snappy"$/;"	v
+colors_name	unix/.vim/colors/solarflare-contrast.vim	/^let colors_name   = "Solarflare Contrast"$/;"	v
+colors_name	unix/.vim/colors/solarflare.vim	/^let colors_name   = "Solarflare"$/;"	v
+colors_name	unix/.vim/colors/sourlick-contrast.vim	/^let colors_name   = "Sourlick Contrast"$/;"	v
+colors_name	unix/.vim/colors/sourlick.vim	/^let colors_name   = "Sourlick"$/;"	v
+colors_name	unix/.vim/colors/spearmint.vim	/^let colors_name   = "Spearmint"$/;"	v
+colors_name	unix/.vim/colors/stark-contrast.vim	/^let colors_name   = "Stark Contrast"$/;"	v
+colors_name	unix/.vim/colors/stark.vim	/^let colors_name   = "Stark"$/;"	v
+colors_name	unix/.vim/colors/super.vim	/^let colors_name   = "Super"$/;"	v
+colors_name	unix/.vim/colors/tonic.vim	/^let colors_name   = "Tonic"$/;"	v
+colors_name	unix/.vim/colors/tribal.vim	/^let colors_name   = "Tribal"$/;"	v
+colors_name	unix/.vim/colors/tron-contrast.vim	/^let colors_name   = "Tron Contrast"$/;"	v
+colors_name	unix/.vim/colors/tron.vim	/^let colors_name   = "Tron"$/;"	v
+colors_name	unix/.vim/colors/turnip-contrast.vim	/^let colors_name   = "Turnip Contrast"$/;"	v
+colors_name	unix/.vim/colors/turnip.vim	/^let colors_name   = "Turnip"$/;"	v
+colors_name	unix/.vim/colors/userscape.vim	/^let colors_name   = "Userscape"$/;"	v
+colors_name	unix/.vim/colors/yule.vim	/^let colors_name   = "Yule"$/;"	v
+colors_name	unix/.vim/colors/zacks-contrast.vim	/^let colors_name   = "Zacks Contrast"$/;"	v
+colors_name	unix/.vim/colors/zacks.vim	/^let colors_name   = "Zacks"$/;"	v
+comc	csh/uaoam_dev.sh	/^alias comc='cd $UAOAM_DEV_HOME\/src\/omc'$/;"	a
+coms	csh/uaoam_dev.sh	/^alias coms='cd $HOME\/uaoss\/product\/OMS'$/;"	a
+comsd	csh/uaoam_dev.sh	/^alias comsd='cd $UAOAM_DEV_HOME\/src\/omsd'$/;"	a
+comsib	csh/uaoam_dev.sh	/^alias comsib='cd $UAOAM_DEV_HOME\/src\/omsib'$/;"	a
+comsproxy	csh/uaoam_dev.sh	/^alias comsproxy='cd $UAOAM_DEV_HOME\/src\/omsproxy'$/;"	a
+concat	unix/gulpfile.js	/^var concat = require('gulp-concat');$/;"	v
+cr	alogin/alogin_env.sh	/^function cr()$/;"	f
+crmi	csh/uaoam_dev.sh	/^alias crmi='cd $UAOAM_DEV_HOME\/src\/mmcd\/rmi'$/;"	a
+cschedd	csh/uaoam_dev.sh	/^alias cschedd='cd $UAOAM_DEV_HOME\/src\/schedd'$/;"	a
+csigmgt	csh/uaoam_dev.sh	/^alias csigmgt='cd $HOME\/uaoss\/product\/SIGTRAN\/src\/sigmgt'$/;"	a
+csktscp	csh/uaoam_dev.sh	/^alias csktscp='cd $HOME\/uaoss\/project\/SKTSCP'$/;"	a
+csktsdp	csh/uaoam_dev.sh	/^alias csktsdp='cd $HOME\/uaoss\/project\/SKTSDP'$/;"	a
+csktsmp	csh/uaoam_dev.sh	/^alias csktsmp='cd $HOME\/uaoss\/project\/SKTSMP'$/;"	a
+csmppib	csh/uaoam_dev.sh	/^alias csmppib='cd $HOME\/uaoss\/product\/SMPP\/src\/smppib'$/;"	a
+cstsd	csh/uaoam_dev.sh	/^alias cstsd='cd $UAOAM_DEV_HOME\/src\/stsd'$/;"	a
+csumd	csh/uaoam_dev.sh	/^alias csumd='cd $UAOAM_DEV_HOME\/src\/sumd'$/;"	a
+ct	alogin/alogin_env.sh	/^function ct()$/;"	f
+ctools	csh/uaoam_dev.sh	/^alias ctools='cd $UALIB_DEV_HOME\/src\/tools'$/;"	a
+ctselscp	csh/uaoam_dev.sh	/^alias ctselscp='cd $HOME\/uaoss\/project\/TSELSCP'$/;"	a
+cuacalc	csh/uaoam_dev.sh	/^alias cuacalc='cd $UAOAM_DEV_HOME\/libsrc\/uacalc'$/;"	a
+cuacalci	csh/uaoam_dev.sh	/^alias cuacalci='cd $UAOAM_DEV_HOME\/include\/uacalc'$/;"	a
+cuacrypt	csh/uaoam_dev.sh	/^alias cuacrypt='cd $UAOAM_DEV_HOME\/libsrc\/uacrypt'$/;"	a
+cuacrypti	csh/uaoam_dev.sh	/^alias cuacrypti='cd $UAOAM_DEV_HOME\/include\/uacrypt'$/;"	a
+cuaguard	csh/uaoam_dev.sh	/^alias cuaguard='cd $HOME\/uaoss\/product\/UAGUARD\/src\/uaguard'$/;"	a
+cualib	csh/uaoam_dev.sh	/^alias cualib='cd $HOME\/uaoss\/ualib'$/;"	a
+cualibi	csh/uaoam_dev.sh	/^alias cualibi='cd $UALIB_DEV_HOME\/include\/ualib'$/;"	a
+cualibs	csh/uaoam_dev.sh	/^alias cualibs='cd $UALIB_DEV_HOME\/src\/ualib'$/;"	a
+cuamhand	csh/uaoam_dev.sh	/^alias cuamhand='cd $UAOAM_DEV_HOME\/libsrc\/uamhand'$/;"	a
+cuamhandi	csh/uaoam_dev.sh	/^alias cuamhandi='cd $UAOAM_DEV_HOME\/include\/uamhand'$/;"	a
+cuammc	csh/uaoam_dev.sh	/^alias cuammc='cd $UALIB_DEV_HOME\/src\/uammc'$/;"	a
+cuammci	csh/uaoam_dev.sh	/^alias cuammci='cd $UALIB_DEV_HOME\/include\/uammc'$/;"	a
+cuampcid	csh/uaoam_dev.sh	/^alias cuampcid='cd $UAOAM_DEV_HOME\/libsrc\/uampcid'$/;"	a
+cuamysql	csh/uaoam_dev.sh	/^alias cuamysql='cd $UAOAM_DEV_HOME\/libsrc\/uamysql'$/;"	a
+cuamysqli	csh/uaoam_dev.sh	/^alias cuamysqli='cd $UAOAM_DEV_HOME\/include\/uamysql'$/;"	a
+cuaoam	csh/uaoam_dev.sh	/^alias cuaoam='cd $HOME\/uaoss\/uaoam'$/;"	a
+cuaoami	csh/uaoam_dev.sh	/^alias cuaoami='cd $UAOAM_DEV_HOME\/include\/uaoam'$/;"	a
+cuaoamifi	csh/uaoam_dev.sh	/^alias cuaoamifi='cd $UALIB_DEV_HOME\/include\/uaoamif'$/;"	a
+cuaoamifs	csh/uaoam_dev.sh	/^alias cuaoamifs='cd $UALIB_DEV_HOME\/src\/uaoamif'$/;"	a
+cuaoams	csh/uaoam_dev.sh	/^alias cuaoams='cd $UAOAM_DEV_HOME\/libsrc\/uaoam'$/;"	a
+cuaomscid	csh/uaoam_dev.sh	/^alias cuaomscid='cd $UAOAM_DEV_HOME\/libsrc\/uaomscid'$/;"	a
+cuaprn	csh/uaoam_dev.sh	/^alias cuaprn='cd $UAOAM_DEV_HOME\/libsrc\/uaprn'$/;"	a
+cuarts	csh/uaoam_dev.sh	/^alias cuarts='cd $UAOAM_DEV_HOME\/libsrc\/uarts'$/;"	a
+cuartsi	csh/uaoam_dev.sh	/^alias cuartsi='cd $UAOAM_DEV_HOME\/include\/uarts'$/;"	a
+cuasamd	csh/uaoam_dev.sh	/^alias cuasamd='cd $UAOAM_DEV_HOME\/src\/uasamd'$/;"	a
+cuasnmp	csh/uaoam_dev.sh	/^alias cuasnmp='cd $HOME\/uaoss\/product\/UASNMP'$/;"	a
+cuasock	csh/uaoam_dev.sh	/^alias cuasock='cd $UALIB_DEV_HOME\/src\/uasock'$/;"	a
+cuasocki	csh/uaoam_dev.sh	/^alias cuasocki='cd $UALIB_DEV_HOME\/include\/uasock'$/;"	a
+cuastat	csh/uaoam_dev.sh	/^alias cuastat='cd $UAOAM_DEV_HOME\/libsrc\/uastat'$/;"	a
+cuaxml	csh/uaoam_dev.sh	/^alias cuaxml='cd $UAOAM_DEV_HOME\/libsrc\/uaxml'$/;"	a
+cuaxmli	csh/uaoam_dev.sh	/^alias cuaxmli='cd $UAOAM_DEV_HOME\/include\/uaxml'$/;"	a
+cusnmpd	csh/uaoam_dev.sh	/^alias cusnmpd='cd $HOME\/uaoss\/product\/UASNMP\/src\/usnmpd'$/;"	a
+cusrg	csh/uaoam_dev.sh	/^alias cusrg='cd $HOME\/uaoss\/product\/USRG'$/;"	a
+cusrgmgt	csh/uaoam_dev.sh	/^alias cusrgmgt='cd $HOME\/uaoss\/product\/USRG\/src\/usrgmgt'$/;"	a
+d	.vim/autoload/plug.vim	/^      nnoremap <silent> <buffer> d :set opfunc=<sid>delete_op<cr>g@$/;"	m
+d	.vim/autoload/plug.vim	/^      xnoremap <silent> <buffer> d :<c-u>call <sid>delete_op(visualmode(), 1)<cr>$/;"	m
+datestr	alogin/alogin_env.sh	/^function datestr()$/;"	f
+db.PRICE.createIndex({INDE:1, PERV:-1})	mongo_cmd/readme.md	/^# db.PRICE.createIndex({INDE:1, PERV:-1})$/;"	c
+dd	.vim/autoload/plug.vim	/^      nmap     <silent> <buffer> dd d_$/;"	m
+decrypt_server	alogin/dec_server_list.sh	/^function decrypt_server()$/;"	f
+del	unix/gulpfile.js	/^var del = require('del');$/;"	v
+delsvr	alogin/alogin_env.sh	/^function delsvr()$/;"	f
+deploy	fabric/osec/fabfile.py	/^def deploy():$/;"	f
+deploy	fabric/osec/ui_ser_work/fabfile.py	/^def deploy():$/;"	f
+deploy	fabric/osec_java/core/fabfile.py	/^def deploy():$/;"	f
+dev_core	fabric/core.pg/dev_core_serv/fabfile.py	/^def dev_core(): # must root$/;"	f
+did_python_syn_inits	.vim/plugin/python.vim	/^    let did_python_syn_inits = 1$/;"	v
+disalias	alogin/alogin_env.sh	/^function disalias()$/;"	f
+disdupsvr	alogin/alogin_env.sh	/^function disdupsvr()$/;"	f
+dishost	alogin/alogin_env.sh	/^function dishost()$/;"	f
+display_alias	alogin/alogin_env.sh	/^function display_alias()$/;"	f
+display_cluster	alogin/alogin_env.sh	/^function display_cluster()$/;"	f
+display_server	alogin/alogin_env.sh	/^function display_server()$/;"	f
+dissrt	alogin/alogin_env.sh	/^function dissrt()$/;"	f
+dissrt_simple	alogin/alogin_env.sh	/^function dissrt_simple()$/;"	f
+dissvr	alogin/alogin_env.sh	/^function dissvr()$/;"	f
+dissvrlist	alogin/alogin_env.sh	/^function dissvrlist()$/;"	f
+es	unix/gulpfile.js	/^var es = require('event-stream');$/;"	v
+f	alogin/alogin_env.sh	/^function f()$/;"	f
+ffindhost	alogin/alogin_env.sh	/^function ffindhost()$/;"	f
+ffindsvr	alogin/alogin_env.sh	/^function ffindsvr()$/;"	f
+file	alogin/tsend.py	/^file = open(tty,'w')$/;"	v
+file	unix/gulpfile.js	/^var file = require('file');$/;"	v
+filetypedetect	.vim/autoload/plug.vim	/^        augroup filetypedetect$/;"	a
+findalias	alogin/alogin_env.sh	/^function findalias()$/;"	f
+findcluster	alogin/alogin_env.sh	/^function findcluster()$/;"	f
+findsvr	alogin/alogin_env.sh	/^function findsvr()$/;"	f
+fonts	unix/gulpfile.js	/^    fonts: [$/;"	p	class:paths
+fs	unix/gulpfile.js	/^var fs = require('fs');$/;"	v
+function_exists	alogin/alogin_env.sh	/^function function_exists() { $1 > \/dev\/null 2>&1; }$/;"	f
+g:Grep_Skip_Dirs	.vimrc	/^let g:Grep_Skip_Dirs='.git'$/;"	v
+g:Grep_Skip_Dirs	darwin/.vimrc	/^let g:Grep_Skip_Dirs='.git'$/;"	v
+g:Grep_Skip_Dirs	unix/.vimrc	/^let g:Grep_Skip_Dirs='.git'$/;"	v
+g:Grep_Skip_Dirs	vim/user.vim	/^let g:Grep_Skip_Dirs='.git'$/;"	v
+g:Powerline_symbols	unix/.vimrc	/^	let g:Powerline_symbols = 'fancy'$/;"	v
+g:_plug_bang	.vim/autoload/plug.vim	/^    let g:_plug_bang = '!'.escape(cmd, '#!%')$/;"	v
+g:airline#extensions#tabline#enabled	.vimrc	/^let g:airline#extensions#tabline#enabled = 1$/;"	v
+g:airline#extensions#tabline#enabled	unix/.vimrc	/^	let g:airline#extensions#tabline#enabled = 1 " turn on buffer list$/;"	v
+g:airline#extensions#tabline#fnamemod	.vimrc	/^let g:airline#extensions#tabline#fnamemod = ':t'$/;"	v
+g:airline#extensions#tabline#left_sep	.vimrc	/^let g:airline#extensions#tabline#left_sep = ' '$/;"	v
+g:airline_theme	.vimrc	/^let g:airline_theme='base16_3024'$/;"	v
+g:airline_theme	unix/.vimrc	/^	let g:airline_theme='cool'$/;"	v
+g:auto_ctags	.vimrc	/^let g:auto_ctags = 1$/;"	v
+g:auto_ctags_directory_list	.vimrc	/^let g:auto_ctags_directory_list = ['.git', '.svn']$/;"	v
+g:auto_ctags_filetype_mode	.vimrc	/^let g:auto_ctags_filetype_mode = 1$/;"	v
+g:auto_ctags_tags_args	.vimrc	/^let g:auto_ctags_tags_args = '--tag-relative --recurse --sort=yes'$/;"	v
+g:auto_ctags_tags_name	.vimrc	/^let g:auto_ctags_tags_name = '.tags'$/;"	v
+g:colors_name	.vim/colors/arstotzka.vim	/^let g:colors_name = "Arstotzka"$/;"	v
+g:colors_name	.vim/colors/azure.vim	/^let g:colors_name = "Azure"$/;"	v
+g:colors_name	.vim/colors/bold.vim	/^let g:colors_name = "Bold"$/;"	v
+g:colors_name	.vim/colors/boxuk.vim	/^let g:colors_name = "Box UK"$/;"	v
+g:colors_name	.vim/colors/carbonight-contrast.vim	/^let g:colors_name = "Carbonight Contrast"$/;"	v
+g:colors_name	.vim/colors/carbonight.vim	/^let g:colors_name = "Carbonight"$/;"	v
+g:colors_name	.vim/colors/chocolate.vim	/^let g:colors_name = "Chocolate"$/;"	v
+g:colors_name	.vim/colors/crisp.vim	/^let g:colors_name = "Crisp"$/;"	v
+g:colors_name	.vim/colors/darkside-contrast.vim	/^let g:colors_name = "Darkside Contrast"$/;"	v
+g:colors_name	.vim/colors/darkside.vim	/^let g:colors_name = "Darkside"$/;"	v
+g:colors_name	.vim/colors/earthsong-contrast.vim	/^let g:colors_name = "Earthsong Contrast"$/;"	v
+g:colors_name	.vim/colors/earthsong-light.vim	/^let g:colors_name = "Earthsong Light"$/;"	v
+g:colors_name	.vim/colors/earthsong.vim	/^let g:colors_name = "Earthsong"$/;"	v
+g:colors_name	.vim/colors/freshcut-contrast.vim	/^let g:colors_name = "FreshCut Contrast"$/;"	v
+g:colors_name	.vim/colors/freshcut.vim	/^let g:colors_name = "FreshCut"$/;"	v
+g:colors_name	.vim/colors/frontier-contrast.vim	/^let g:colors_name = "Frontier Contrast"$/;"	v
+g:colors_name	.vim/colors/frontier.vim	/^let g:colors_name = "Frontier"$/;"	v
+g:colors_name	.vim/colors/github.vim	/^let g:colors_name = "Github"$/;"	v
+g:colors_name	.vim/colors/gloom-contrast.vim	/^let g:colors_name = "Gloom Contrast"$/;"	v
+g:colors_name	.vim/colors/gloom.vim	/^let g:colors_name = "Gloom"$/;"	v
+g:colors_name	.vim/colors/glowfish-contrast.vim	/^let g:colors_name = "Glowfish Contrast"$/;"	v
+g:colors_name	.vim/colors/glowfish.vim	/^let g:colors_name = "Glowfish"$/;"	v
+g:colors_name	.vim/colors/goldfish-contrast.vim	/^let g:colors_name = "Goldfish Contrast"$/;"	v
+g:colors_name	.vim/colors/goldfish.vim	/^let g:colors_name = "Goldfish"$/;"	v
+g:colors_name	.vim/colors/grunge-contrast.vim	/^let g:colors_name = "Grunge Contrast"$/;"	v
+g:colors_name	.vim/colors/grunge.vim	/^let g:colors_name = "Grunge"$/;"	v
+g:colors_name	.vim/colors/halflife-contrast.vim	/^let g:colors_name = "Halflife Contrast"$/;"	v
+g:colors_name	.vim/colors/halflife.vim	/^let g:colors_name = "Halflife"$/;"	v
+g:colors_name	.vim/colors/heroku.vim	/^let g:colors_name = "Heroku"$/;"	v
+g:colors_name	.vim/colors/hyrule-contrast.vim	/^let g:colors_name = "Hyrule Contrast"$/;"	v
+g:colors_name	.vim/colors/hyrule.vim	/^let g:colors_name = "Hyrule"$/;"	v
+g:colors_name	.vim/colors/iceberg-contrast.vim	/^let g:colors_name = "Iceberg Contrast"$/;"	v
+g:colors_name	.vim/colors/iceberg.vim	/^let g:colors_name = "Iceberg"$/;"	v
+g:colors_name	.vim/colors/juicy-contrast.vim	/^let g:colors_name = "Juicy Contrast"$/;"	v
+g:colors_name	.vim/colors/juicy.vim	/^let g:colors_name = "Juicy"$/;"	v
+g:colors_name	.vim/colors/keen-contrast.vim	/^let g:colors_name = "Keen Contrast"$/;"	v
+g:colors_name	.vim/colors/keen.vim	/^let g:colors_name = "Keen"$/;"	v
+g:colors_name	.vim/colors/kiwi.vim	/^let g:colors_name = "Kiwi"$/;"	v
+g:colors_name	.vim/colors/laravel-contrast.vim	/^let g:colors_name = "Laravel Contrast"$/;"	v
+g:colors_name	.vim/colors/laravel.vim	/^let g:colors_name = "Laravel"$/;"	v
+g:colors_name	.vim/colors/lavender-contrast.vim	/^let g:colors_name = "Lavender Contrast"$/;"	v
+g:colors_name	.vim/colors/lavender.vim	/^let g:colors_name = "Lavender"$/;"	v
+g:colors_name	.vim/colors/legacy.vim	/^let g:colors_name = "Legacy"$/;"	v
+g:colors_name	.vim/colors/mellow-contrast.vim	/^let g:colors_name = "Mellow Contrast"$/;"	v
+g:colors_name	.vim/colors/mellow.vim	/^let g:colors_name = "Mellow"$/;"	v
+g:colors_name	.vim/colors/mintchoc.vim	/^let g:colors_name = "Mintchoc"$/;"	v
+g:colors_name	.vim/colors/mud-contrast.vim	/^let g:colors_name = "Mud Contrast"$/;"	v
+g:colors_name	.vim/colors/mud.vim	/^let g:colors_name = "Mud"$/;"	v
+g:colors_name	.vim/colors/otakon.vim	/^let g:colors_name = "Otakon"$/;"	v
+g:colors_name	.vim/colors/pastel.vim	/^let g:colors_name = "Pastel"$/;"	v
+g:colors_name	.vim/colors/patriot-contrast.vim	/^let g:colors_name = "Patriot Contrast"$/;"	v
+g:colors_name	.vim/colors/patriot.vim	/^let g:colors_name = "Patriot"$/;"	v
+g:colors_name	.vim/colors/peacock-contrast.vim	/^let g:colors_name = "Peacock Contrast"$/;"	v
+g:colors_name	.vim/colors/peacock.vim	/^let g:colors_name = "Peacock"$/;"	v
+g:colors_name	.vim/colors/peacocks-in-space.vim	/^let g:colors_name = "Peacocks In Space"$/;"	v
+g:colors_name	.vim/colors/peel.vim	/^let g:colors_name = "Peel"$/;"	v
+g:colors_name	.vim/colors/piggy.vim	/^let g:colors_name = "Piggy"$/;"	v
+g:colors_name	.vim/colors/potpourri-contrast.vim	/^let g:colors_name = "Potpourri Contrast"$/;"	v
+g:colors_name	.vim/colors/potpourri.vim	/^let g:colors_name = "Potpourri"$/;"	v
+g:colors_name	.vim/colors/rainbow.vim	/^let g:colors_name = "Rainbow"$/;"	v
+g:colors_name	.vim/colors/revelation-contrast.vim	/^let g:colors_name = "Revelation Contrast"$/;"	v
+g:colors_name	.vim/colors/revelation.vim	/^let g:colors_name = "Revelation"$/;"	v
+g:colors_name	.vim/colors/shrek.vim	/^let g:colors_name = "Shrek"$/;"	v
+g:colors_name	.vim/colors/slate.vim	/^let g:colors_name = "Slate"$/;"	v
+g:colors_name	.vim/colors/slime-contrast.vim	/^let g:colors_name = "Slime Contrast"$/;"	v
+g:colors_name	.vim/colors/slime.vim	/^let g:colors_name = "Slime"$/;"	v
+g:colors_name	.vim/colors/snappy-contrast.vim	/^let g:colors_name = "Snappy Contrast"$/;"	v
+g:colors_name	.vim/colors/snappy-light.vim	/^let g:colors_name = "Snappy Light"$/;"	v
+g:colors_name	.vim/colors/snappy.vim	/^let g:colors_name = "Snappy"$/;"	v
+g:colors_name	.vim/colors/solarflare-contrast.vim	/^let g:colors_name = "Solarflare Contrast"$/;"	v
+g:colors_name	.vim/colors/solarflare.vim	/^let g:colors_name = "Solarflare"$/;"	v
+g:colors_name	.vim/colors/sourlick-contrast.vim	/^let g:colors_name = "Sourlick Contrast"$/;"	v
+g:colors_name	.vim/colors/sourlick.vim	/^let g:colors_name = "Sourlick"$/;"	v
+g:colors_name	.vim/colors/spearmint.vim	/^let g:colors_name = "Spearmint"$/;"	v
+g:colors_name	.vim/colors/stark-contrast.vim	/^let g:colors_name = "Stark Contrast"$/;"	v
+g:colors_name	.vim/colors/stark.vim	/^let g:colors_name = "Stark"$/;"	v
+g:colors_name	.vim/colors/super.vim	/^let g:colors_name = "Super"$/;"	v
+g:colors_name	.vim/colors/tonic.vim	/^let g:colors_name = "Tonic"$/;"	v
+g:colors_name	.vim/colors/tribal.vim	/^let g:colors_name = "Tribal"$/;"	v
+g:colors_name	.vim/colors/tron-contrast.vim	/^let g:colors_name = "Tron Contrast"$/;"	v
+g:colors_name	.vim/colors/tron.vim	/^let g:colors_name = "Tron"$/;"	v
+g:colors_name	.vim/colors/turnip-contrast.vim	/^let g:colors_name = "Turnip Contrast"$/;"	v
+g:colors_name	.vim/colors/turnip.vim	/^let g:colors_name = "Turnip"$/;"	v
+g:colors_name	.vim/colors/userscape.vim	/^let g:colors_name = "Userscape"$/;"	v
+g:colors_name	.vim/colors/yule.vim	/^let g:colors_name = "Yule"$/;"	v
+g:colors_name	.vim/colors/zacks-contrast.vim	/^let g:colors_name = "Zacks Contrast"$/;"	v
+g:colors_name	.vim/colors/zacks.vim	/^let g:colors_name = "Zacks"$/;"	v
+g:colors_name	config/nvim/colors/CodeSchool3.vim	/^let g:colors_name = "CodeSchool3"$/;"	v
+g:colors_name	config/nvim/colors/grb256.vim	/^let g:colors_name = "grb256"$/;"	v
+g:colors_name	config/nvim/colors/molokai.vim	/^let g:colors_name="molokai"$/;"	v
+g:colors_name	config/nvim/colors/molokayo.vim	/^let g:colors_name="molokayo"$/;"	v
+g:colors_name	nvim/.config/nvim/colors/CodeSchool3.vim	/^let g:colors_name = "CodeSchool3"$/;"	v
+g:colors_name	nvim/.config/nvim/colors/grb256.vim	/^let g:colors_name = "grb256"$/;"	v
+g:colors_name	nvim/.config/nvim/colors/molokai.vim	/^let g:colors_name="molokai"$/;"	v
+g:colors_name	nvim/.config/nvim/colors/molokayo.vim	/^let g:colors_name="molokayo"$/;"	v
+g:colors_name	unix/.vim/colors/arstotzka.vim	/^let g:colors_name = "Arstotzka"$/;"	v
+g:colors_name	unix/.vim/colors/azure.vim	/^let g:colors_name = "Azure"$/;"	v
+g:colors_name	unix/.vim/colors/bold.vim	/^let g:colors_name = "Bold"$/;"	v
+g:colors_name	unix/.vim/colors/boxuk.vim	/^let g:colors_name = "Box UK"$/;"	v
+g:colors_name	unix/.vim/colors/carbonight-contrast.vim	/^let g:colors_name = "Carbonight Contrast"$/;"	v
+g:colors_name	unix/.vim/colors/carbonight.vim	/^let g:colors_name = "Carbonight"$/;"	v
+g:colors_name	unix/.vim/colors/chocolate.vim	/^let g:colors_name = "Chocolate"$/;"	v
+g:colors_name	unix/.vim/colors/crisp.vim	/^let g:colors_name = "Crisp"$/;"	v
+g:colors_name	unix/.vim/colors/darkside-contrast.vim	/^let g:colors_name = "Darkside Contrast"$/;"	v
+g:colors_name	unix/.vim/colors/darkside.vim	/^let g:colors_name = "Darkside"$/;"	v
+g:colors_name	unix/.vim/colors/earthsong-contrast.vim	/^let g:colors_name = "Earthsong Contrast"$/;"	v
+g:colors_name	unix/.vim/colors/earthsong-light.vim	/^let g:colors_name = "Earthsong Light"$/;"	v
+g:colors_name	unix/.vim/colors/earthsong.vim	/^let g:colors_name = "Earthsong"$/;"	v
+g:colors_name	unix/.vim/colors/freshcut-contrast.vim	/^let g:colors_name = "FreshCut Contrast"$/;"	v
+g:colors_name	unix/.vim/colors/freshcut.vim	/^let g:colors_name = "FreshCut"$/;"	v
+g:colors_name	unix/.vim/colors/frontier-contrast.vim	/^let g:colors_name = "Frontier Contrast"$/;"	v
+g:colors_name	unix/.vim/colors/frontier.vim	/^let g:colors_name = "Frontier"$/;"	v
+g:colors_name	unix/.vim/colors/github.vim	/^let g:colors_name = "Github"$/;"	v
+g:colors_name	unix/.vim/colors/gloom-contrast.vim	/^let g:colors_name = "Gloom Contrast"$/;"	v
+g:colors_name	unix/.vim/colors/gloom.vim	/^let g:colors_name = "Gloom"$/;"	v
+g:colors_name	unix/.vim/colors/glowfish-contrast.vim	/^let g:colors_name = "Glowfish Contrast"$/;"	v
+g:colors_name	unix/.vim/colors/glowfish.vim	/^let g:colors_name = "Glowfish"$/;"	v
+g:colors_name	unix/.vim/colors/goldfish-contrast.vim	/^let g:colors_name = "Goldfish Contrast"$/;"	v
+g:colors_name	unix/.vim/colors/goldfish.vim	/^let g:colors_name = "Goldfish"$/;"	v
+g:colors_name	unix/.vim/colors/grunge-contrast.vim	/^let g:colors_name = "Grunge Contrast"$/;"	v
+g:colors_name	unix/.vim/colors/grunge.vim	/^let g:colors_name = "Grunge"$/;"	v
+g:colors_name	unix/.vim/colors/halflife-contrast.vim	/^let g:colors_name = "Halflife Contrast"$/;"	v
+g:colors_name	unix/.vim/colors/halflife.vim	/^let g:colors_name = "Halflife"$/;"	v
+g:colors_name	unix/.vim/colors/heroku.vim	/^let g:colors_name = "Heroku"$/;"	v
+g:colors_name	unix/.vim/colors/hyrule-contrast.vim	/^let g:colors_name = "Hyrule Contrast"$/;"	v
+g:colors_name	unix/.vim/colors/hyrule.vim	/^let g:colors_name = "Hyrule"$/;"	v
+g:colors_name	unix/.vim/colors/iceberg-contrast.vim	/^let g:colors_name = "Iceberg Contrast"$/;"	v
+g:colors_name	unix/.vim/colors/iceberg.vim	/^let g:colors_name = "Iceberg"$/;"	v
+g:colors_name	unix/.vim/colors/juicy-contrast.vim	/^let g:colors_name = "Juicy Contrast"$/;"	v
+g:colors_name	unix/.vim/colors/juicy.vim	/^let g:colors_name = "Juicy"$/;"	v
+g:colors_name	unix/.vim/colors/keen-contrast.vim	/^let g:colors_name = "Keen Contrast"$/;"	v
+g:colors_name	unix/.vim/colors/keen.vim	/^let g:colors_name = "Keen"$/;"	v
+g:colors_name	unix/.vim/colors/kiwi.vim	/^let g:colors_name = "Kiwi"$/;"	v
+g:colors_name	unix/.vim/colors/laravel-contrast.vim	/^let g:colors_name = "Laravel Contrast"$/;"	v
+g:colors_name	unix/.vim/colors/laravel.vim	/^let g:colors_name = "Laravel"$/;"	v
+g:colors_name	unix/.vim/colors/lavender-contrast.vim	/^let g:colors_name = "Lavender Contrast"$/;"	v
+g:colors_name	unix/.vim/colors/lavender.vim	/^let g:colors_name = "Lavender"$/;"	v
+g:colors_name	unix/.vim/colors/legacy.vim	/^let g:colors_name = "Legacy"$/;"	v
+g:colors_name	unix/.vim/colors/mellow-contrast.vim	/^let g:colors_name = "Mellow Contrast"$/;"	v
+g:colors_name	unix/.vim/colors/mellow.vim	/^let g:colors_name = "Mellow"$/;"	v
+g:colors_name	unix/.vim/colors/mintchoc.vim	/^let g:colors_name = "Mintchoc"$/;"	v
+g:colors_name	unix/.vim/colors/mud-contrast.vim	/^let g:colors_name = "Mud Contrast"$/;"	v
+g:colors_name	unix/.vim/colors/mud.vim	/^let g:colors_name = "Mud"$/;"	v
+g:colors_name	unix/.vim/colors/otakon.vim	/^let g:colors_name = "Otakon"$/;"	v
+g:colors_name	unix/.vim/colors/pastel.vim	/^let g:colors_name = "Pastel"$/;"	v
+g:colors_name	unix/.vim/colors/patriot-contrast.vim	/^let g:colors_name = "Patriot Contrast"$/;"	v
+g:colors_name	unix/.vim/colors/patriot.vim	/^let g:colors_name = "Patriot"$/;"	v
+g:colors_name	unix/.vim/colors/peacock-contrast.vim	/^let g:colors_name = "Peacock Contrast"$/;"	v
+g:colors_name	unix/.vim/colors/peacock.vim	/^let g:colors_name = "Peacock"$/;"	v
+g:colors_name	unix/.vim/colors/peacocks-in-space.vim	/^let g:colors_name = "Peacocks In Space"$/;"	v
+g:colors_name	unix/.vim/colors/peel.vim	/^let g:colors_name = "Peel"$/;"	v
+g:colors_name	unix/.vim/colors/piggy.vim	/^let g:colors_name = "Piggy"$/;"	v
+g:colors_name	unix/.vim/colors/potpourri-contrast.vim	/^let g:colors_name = "Potpourri Contrast"$/;"	v
+g:colors_name	unix/.vim/colors/potpourri.vim	/^let g:colors_name = "Potpourri"$/;"	v
+g:colors_name	unix/.vim/colors/rainbow.vim	/^let g:colors_name = "Rainbow"$/;"	v
+g:colors_name	unix/.vim/colors/revelation-contrast.vim	/^let g:colors_name = "Revelation Contrast"$/;"	v
+g:colors_name	unix/.vim/colors/revelation.vim	/^let g:colors_name = "Revelation"$/;"	v
+g:colors_name	unix/.vim/colors/shrek.vim	/^let g:colors_name = "Shrek"$/;"	v
+g:colors_name	unix/.vim/colors/slate.vim	/^let g:colors_name = "Slate"$/;"	v
+g:colors_name	unix/.vim/colors/slime-contrast.vim	/^let g:colors_name = "Slime Contrast"$/;"	v
+g:colors_name	unix/.vim/colors/slime.vim	/^let g:colors_name = "Slime"$/;"	v
+g:colors_name	unix/.vim/colors/snappy-contrast.vim	/^let g:colors_name = "Snappy Contrast"$/;"	v
+g:colors_name	unix/.vim/colors/snappy-light.vim	/^let g:colors_name = "Snappy Light"$/;"	v
+g:colors_name	unix/.vim/colors/snappy.vim	/^let g:colors_name = "Snappy"$/;"	v
+g:colors_name	unix/.vim/colors/solarflare-contrast.vim	/^let g:colors_name = "Solarflare Contrast"$/;"	v
+g:colors_name	unix/.vim/colors/solarflare.vim	/^let g:colors_name = "Solarflare"$/;"	v
+g:colors_name	unix/.vim/colors/sourlick-contrast.vim	/^let g:colors_name = "Sourlick Contrast"$/;"	v
+g:colors_name	unix/.vim/colors/sourlick.vim	/^let g:colors_name = "Sourlick"$/;"	v
+g:colors_name	unix/.vim/colors/spearmint.vim	/^let g:colors_name = "Spearmint"$/;"	v
+g:colors_name	unix/.vim/colors/stark-contrast.vim	/^let g:colors_name = "Stark Contrast"$/;"	v
+g:colors_name	unix/.vim/colors/stark.vim	/^let g:colors_name = "Stark"$/;"	v
+g:colors_name	unix/.vim/colors/super.vim	/^let g:colors_name = "Super"$/;"	v
+g:colors_name	unix/.vim/colors/tonic.vim	/^let g:colors_name = "Tonic"$/;"	v
+g:colors_name	unix/.vim/colors/tribal.vim	/^let g:colors_name = "Tribal"$/;"	v
+g:colors_name	unix/.vim/colors/tron-contrast.vim	/^let g:colors_name = "Tron Contrast"$/;"	v
+g:colors_name	unix/.vim/colors/tron.vim	/^let g:colors_name = "Tron"$/;"	v
+g:colors_name	unix/.vim/colors/turnip-contrast.vim	/^let g:colors_name = "Turnip Contrast"$/;"	v
+g:colors_name	unix/.vim/colors/turnip.vim	/^let g:colors_name = "Turnip"$/;"	v
+g:colors_name	unix/.vim/colors/userscape.vim	/^let g:colors_name = "Userscape"$/;"	v
+g:colors_name	unix/.vim/colors/yule.vim	/^let g:colors_name = "Yule"$/;"	v
+g:colors_name	unix/.vim/colors/zacks-contrast.vim	/^let g:colors_name = "Zacks Contrast"$/;"	v
+g:colors_name	unix/.vim/colors/zacks.vim	/^let g:colors_name = "Zacks"$/;"	v
+g:ctrlp_user_command	.vimrc	/^let g:ctrlp_user_command = 'find %s -type f'        " MacOSX\/Linux$/;"	v
+g:ctrlp_working_path_mode	.vimrc	/^let g:ctrlp_working_path_mode = 'ra'$/;"	v
+g:loaded_plug	.vim/autoload/plug.vim	/^let g:loaded_plug = 1$/;"	v
+g:molokai_original	config/nvim/colors/molokayo.vim	/^let g:molokai_original = 1$/;"	v
+g:molokai_original	nvim/.config/nvim/colors/molokayo.vim	/^let g:molokai_original = 1$/;"	v
+g:molokayo#focus_variant	config/nvim/colors/molokayo.vim	/^    let g:molokayo#focus_variant = 0$/;"	v
+g:molokayo#focus_variant	nvim/.config/nvim/colors/molokayo.vim	/^    let g:molokayo#focus_variant = 0$/;"	v
+g:molokayo#high_contrast#comments	config/nvim/colors/molokayo.vim	/^    let g:molokayo#high_contrast#comments = 0$/;"	v
+g:molokayo#high_contrast#comments	nvim/.config/nvim/colors/molokayo.vim	/^    let g:molokayo#high_contrast#comments = 0$/;"	v
+g:netrw_altv	.vimrc	/^let g:netrw_altv=4$/;"	v
+g:netrw_altv	config/nvim/init.vim	/^let g:netrw_altv=4$/;"	v
+g:netrw_altv	darwin/.vimrc	/^let g:netrw_altv=4$/;"	v
+g:netrw_altv	nvim/.config/nvim/init.vim	/^let g:netrw_altv=4$/;"	v
+g:netrw_altv	nvim/.vimrc	/^let g:netrw_altv=4$/;"	v
+g:netrw_altv	vim/user.vim	/^let g:netrw_altv=4$/;"	v
+g:netrw_banner	.vimrc	/^let g:netrw_banner=0$/;"	v
+g:netrw_banner	config/nvim/init.vim	/^let g:netrw_banner=0$/;"	v
+g:netrw_banner	darwin/.vimrc	/^let g:netrw_banner=0$/;"	v
+g:netrw_banner	nvim/.config/nvim/init.vim	/^let g:netrw_banner=0$/;"	v
+g:netrw_banner	nvim/.vimrc	/^let g:netrw_banner=0$/;"	v
+g:netrw_banner	vim/user.vim	/^let g:netrw_banner=0$/;"	v
+g:netrw_browse_split	.vimrc	/^let g:netrw_browse_split=4$/;"	v
+g:netrw_browse_split	config/nvim/init.vim	/^let g:netrw_browse_split=4$/;"	v
+g:netrw_browse_split	darwin/.vimrc	/^let g:netrw_browse_split=4$/;"	v
+g:netrw_browse_split	nvim/.config/nvim/init.vim	/^let g:netrw_browse_split=4$/;"	v
+g:netrw_browse_split	nvim/.vimrc	/^let g:netrw_browse_split=4$/;"	v
+g:netrw_browse_split	vim/user.vim	/^let g:netrw_browse_split=4$/;"	v
+g:netrw_list_hide	darwin/.vimrc	/^let g:netrw_list_hide.=',\\(^\\|\\s\\s\\)\\zs\\.\\S\\+'$/;"	v
+g:netrw_list_hide	darwin/.vimrc	/^let g:netrw_list_hide=netrw_gitignore#Hide()$/;"	v
+g:netrw_liststyle	.vimrc	/^let g:netrw_liststyle=3$/;"	v
+g:netrw_liststyle	config/nvim/init.vim	/^let g:netrw_liststyle=3$/;"	v
+g:netrw_liststyle	darwin/.vimrc	/^let g:netrw_liststyle=3$/;"	v
+g:netrw_liststyle	nvim/.config/nvim/init.vim	/^let g:netrw_liststyle=3$/;"	v
+g:netrw_liststyle	nvim/.vimrc	/^let g:netrw_liststyle=3$/;"	v
+g:netrw_liststyle	vim/user.vim	/^let g:netrw_liststyle=3$/;"	v
+g:plug_home	.vim/autoload/plug.vim	/^  let g:plug_home = home$/;"	v
+g:plugs	.vim/autoload/plug.vim	/^    let g:plugs[name] = spec$/;"	v
+g:plugs	.vim/autoload/plug.vim	/^  let g:plugs = {}$/;"	v
+g:plugs_order	.vim/autoload/plug.vim	/^  let g:plugs_order = []$/;"	v
+g:plugs_order	.vim/autoload/plug.vim	/^  let g:plugs_order = get(g:, 'plugs_order', keys(g:plugs))$/;"	v
+g:syntastic_always_populate_loc_list	darwin/.vimrc	/^let g:syntastic_always_populate_loc_list = 1$/;"	v
+g:syntastic_always_populate_loc_list	unix/.vimrc	/^let g:syntastic_always_populate_loc_list = 1$/;"	v
+g:syntastic_auto_loc_list	darwin/.vimrc	/^let g:syntastic_auto_loc_list = 1$/;"	v
+g:syntastic_auto_loc_list	unix/.vimrc	/^let g:syntastic_auto_loc_list = 1$/;"	v
+g:syntastic_check_on_open	darwin/.vimrc	/^let g:syntastic_check_on_open = 1$/;"	v
+g:syntastic_check_on_open	unix/.vimrc	/^let g:syntastic_check_on_open = 1$/;"	v
+g:syntastic_check_on_wq	darwin/.vimrc	/^let g:syntastic_check_on_wq = 0$/;"	v
+g:syntastic_check_on_wq	unix/.vimrc	/^let g:syntastic_check_on_wq = 0$/;"	v
+g:unite_source_history_yank_enable	.vimrc	/^let g:unite_source_history_yank_enable = 1$/;"	v
+g:vifm_exec	.vim/plugin/vifm.vim	/^	let g:vifm_exec = 'vifm'$/;"	v
+g:vifm_exec	unix/.vim/plugin/vifm.vim	/^	let g:vifm_exec = 'vifm'$/;"	v
+g:vifm_exec_args	.vim/plugin/vifm.vim	/^	let g:vifm_exec_args = ''$/;"	v
+g:vifm_exec_args	unix/.vim/plugin/vifm.vim	/^	let g:vifm_exec_args = ''$/;"	v
+g:vifm_help_mapping	.vim/plugin/vifm.vim	/^let g:vifm_help_mapping = get(g:, 'vifm_help_mapping', 'K')$/;"	v
+g:vifm_help_mapping	unix/.vim/plugin/vifm.vim	/^let g:vifm_help_mapping = get(g:, 'vifm_help_mapping', 'K')$/;"	v
+g:vifm_term	.vim/plugin/vifm.vim	/^			let g:vifm_term = ''$/;"	v
+g:vifm_term	.vim/plugin/vifm.vim	/^			let g:vifm_term = 'C:\\Windows\\system32\\cmd.exe \/C'$/;"	v
+g:vifm_term	.vim/plugin/vifm.vim	/^		let g:vifm_term = 'xterm -e'$/;"	v
+g:vifm_term	unix/.vim/plugin/vifm.vim	/^			let g:vifm_term = ''$/;"	v
+g:vifm_term	unix/.vim/plugin/vifm.vim	/^			let g:vifm_term = 'C:\\Windows\\system32\\cmd.exe \/C'$/;"	v
+g:vifm_term	unix/.vim/plugin/vifm.vim	/^		let g:vifm_term = 'xterm -e'$/;"	v
+getModules	unix/gulpfile.js	/^function getModules(src, app, ignore) {$/;"	f
+get_alias_host	alogin/alogin_env.sh	/^function get_alias_host()$/;"	f
+get_conninfo	alogin/alogin_env.sh	/^function get_conninfo()$/;"	f
+get_default_user	alogin/alogin_env.sh	/^function get_default_user()$/;"	f
+get_gateway	alogin/alogin_env.sh	/^function get_gateway()$/;"	f
+get_gateway_list	alogin/alogin_env.sh	/^function get_gateway_list()$/;"	f
+get_host	alogin/alogin_env.sh	/^function get_host()$/;"	f
+get_host_n	alogin/alogin_env.sh	/^function get_host_n()$/;"	f
+get_locale	alogin/alogin_env.sh	/^function get_locale()$/;"	f
+get_svr	alogin/alogin_env.sh	/^function get_svr()$/;"	f
+get_svr_info	alogin/alogin_env.sh	/^function get_svr_info()$/;"	f
+get_terminal_theme	alogin/alogin_env.sh	/^function get_terminal_theme()$/;"	f
+get_user	alogin/alogin_env.sh	/^function get_user()$/;"	f
+get_user_n	alogin/alogin_env.sh	/^function get_user_n()$/;"	f
+getopt	alogin/alogin_env.sh	/^function getopt()$/;"	f
+getpwd	alogin/alogin_env.sh	/^function getpwd()$/;"	f
+gets	fabric/osec/fabfile.py	/^def gets():$/;"	f
+gulp	gulp_file/gulpfile.js	/^var gulp = require('gulp');$/;"	v
+gulp	unix/gulpfile.js	/^var gulp = require('gulp');$/;"	v
+guppy	unix/gulpfile.js	/^var guppy = require('git-guppy')(gulp);$/;"	v
+handlebarOpts	unix/gulpfile.js	/^var handlebarOpts  = {$/;"	c
+handlebars	unix/gulpfile.js	/^var handlebars = require('gulp-compile-handlebars');$/;"	v
+help_IS_SPECIAL_HOST	alogin/alogin_env.sh	/^function help_IS_SPECIAL_HOST()$/;"	f
+help_addalias	alogin/alogin_env.sh	/^function help_addalias()$/;"	f
+help_addsvr	alogin/alogin_env.sh	/^function help_addsvr()$/;"	f
+help_chgpwd	alogin/alogin_env.sh	/^function help_chgpwd()$/;"	f
+help_chgsvr	alogin/alogin_env.sh	/^function help_chgsvr()$/;"	f
+help_cr	alogin/alogin_env.sh	/^function help_cr()$/;"	f
+help_ct	alogin/alogin_env.sh	/^function help_ct()$/;"	f
+help_delsvr	alogin/alogin_env.sh	/^function help_delsvr()$/;"	f
+help_disalias	alogin/alogin_env.sh	/^function help_disalias()$/;"	f
+help_disdupsvr	alogin/alogin_env.sh	/^function help_disdupsvr()$/;"	f
+help_dissrt	alogin/alogin_env.sh	/^function help_dissrt()$/;"	f
+help_dissvr	alogin/alogin_env.sh	/^function help_dissvr()$/;"	f
+help_f	alogin/alogin_env.sh	/^function help_f()$/;"	f
+help_r	alogin/alogin_env.sh	/^function help_r()$/;"	f
+help_runscpt	alogin/alogin_env.sh	/^function help_runscpt()$/;"	f
+help_s	alogin/alogin_env.sh	/^function help_s()$/;"	f
+help_t	alogin/alogin_env.sh	/^function help_t()$/;"	f
+help_tc	alogin/alogin_env.sh	/^function help_tc()$/;"	f
+helpers	unix/gulpfile.js	/^    helpers: {$/;"	c	class:handlebarOpts
+hostPattern	unix/gulpfile.js	/^var hostPattern=\/HOST\\s\\:(.*)\\,\\\/\\\/XXX\/g;$/;"	v
+hyper	nvim/.config/Hyper/config.json	/^	"hyper": {$/;"	o
+images	unix/gulpfile.js	/^    images: '.\/assets\/images\/**\/*',$/;"	p	class:paths
+index create	mongo_cmd/readme.md	/^# index create$/;"	c
+init_env	alogin/alogin_env.sh	/^function init_env()$/;"	f
+init_global	alogin/alogin_env.sh	/^function init_global()$/;"	f
+ip	alogin/alogin_env.sh	/^function ip()$/;"	f
+is_special_host	alogin/alogin_env.sh	/^function is_special_host()$/;"	f
+line	alogin/tsend.py	/^	line = sys.stdin.readline(10240)$/;"	v
+loaded_grep	.vim/plugin/grep.vim	/^let loaded_grep = 1$/;"	v
+loaded_grep	unix/.vim/plugin/grep.vim	/^let loaded_grep = 1$/;"	v
+loaded_mru	.vim/plugin/mru.vim	/^let loaded_mru=1$/;"	v
+loaded_vifm	.vim/plugin/vifm.vim	/^let loaded_vifm = 1$/;"	v
+loaded_vifm	unix/.vim/plugin/vifm.vim	/^let loaded_vifm = 1$/;"	v
+log_debug	alogin/alogin_env.sh	/^function log_debug()$/;"	f
+log_error	alogin/alogin_env.sh	/^function log_error()$/;"	f
+log_info	alogin/alogin_env.sh	/^function log_info()$/;"	f
+m	alogin/alogin_env.sh	/^function m()$/;"	f
+mapleader	.vimrc	/^	let mapleader = ","$/;"	v
+mapleader	darwin/.vimrc	/^	let mapleader = ","$/;"	v
+mapleader	unix/.vimrc	/^	let mapleader = ","$/;"	v
+minifiedFileName	unix/gulpfile.js	/^pipes.minifiedFileName = function() {$/;"	f	function:pipes
+mktag	csh/uaoam_dev.sh	/^alias mktag='ctags -R uaoss \/usr\/include\/*'$/;"	a
+msg	unix/gulpfile.js	/^var msg = '';$/;"	v
+next_sleep	alogin/tsend.py	/^next_sleep=slen$/;"	v
+no_growl	alogin/csshx.conf	/^no_growl=1$/;"	k
+o	.vim/autoload/plug.vim	/^    nnoremap <silent> <buffer> o    :silent! call <SID>preview_commit()<cr>$/;"	m
+o	.vim/plugin/mru.vim	/^    nnoremap <buffer> <silent> o$/;"	m
+o	.vim/plugin/mru.vim	/^    vnoremap <buffer> <silent> o$/;"	m
+orderedAppScripts	unix/gulpfile.js	/^pipes.orderedAppScripts = function() {$/;"	f	function:pipes
+orderedVendorScripts	unix/gulpfile.js	/^pipes.orderedVendorScripts = function() {$/;"	f	function:pipes
+p	.vim/plugin/mru.vim	/^    nnoremap <buffer> <silent> p$/;"	m
+p	.vim/plugin/mru.vim	/^    vnoremap <buffer> <silent> p$/;"	m
+pack	fabric/osec/fabfile.py	/^def pack():$/;"	f
+pack	fabric/osec/ui_ser_work/fabfile.py	/^def pack():$/;"	f
+path	unix/gulpfile.js	/^var path = require('path');$/;"	v
+paths	unix/gulpfile.js	/^var paths = {$/;"	c
+pg_core	fabric/core.pg/fabfile.py	/^def pg_core():$/;"	f
+pg_core	fabric/core.pg/pg_core_serv/fabfile.py	/^def pg_core():$/;"	f
+pg_core	fabric/osec/ui_ser_work/fabfile.py	/^def pg_core():$/;"	f
+pipes	unix/gulpfile.js	/^var pipes = {};$/;"	v
+plug#	.vim/autoload/plug.vim	/^function! plug#(repo, ...)$/;"	f
+plug#begin	.vim/autoload/plug.vim	/^function! plug#begin(...)$/;"	f
+plug#end	.vim/autoload/plug.vim	/^function! plug#end()$/;"	f
+plug#helptags	.vim/autoload/plug.vim	/^function! plug#helptags()$/;"	f
+plug#load	.vim/autoload/plug.vim	/^function! plug#load(...)$/;"	f
+plugin-versions	nvim/.config/Hyper/config.json	/^		"plugin-versions": "[[\\"hyperocean\\",\\"1.1.1\\"],[\\"hyper-search\\",\\"0.0.10\\"],[\\"hype/;"	s	object:hyper
+plugins	nvim/.config/Hyper/config.json	/^		"plugins": "{\\"plugins\\":[\\"hyperocean\\",\\"hyper-search\\",\\"hyperpower\\",\\"hyper-sola/;"	s	object:hyper
+plugins	unix/gulpfile.js	/^var plugins = require('gulp-load-plugins')();$/;"	v
+print	unix/gulpfile.js	/^var print = require('gulp-print');$/;"	v
+print_thelp	alogin/alogin_env.sh	/^alias print_thelp='thelp ${FUNCNAME[0]}; return'$/;"	a
+processedFontsProd	unix/gulpfile.js	/^pipes.processedFontsProd = function() {$/;"	f	function:pipes
+processedImagesDev	unix/gulpfile.js	/^pipes.processedImagesDev = function() {$/;"	f	function:pipes
+processedImagesProd	unix/gulpfile.js	/^pipes.processedImagesProd = function() {$/;"	f	function:pipes
+q	.vim/autoload/plug.vim	/^  nnoremap <silent> <buffer> q  :if b:plug_preview==1<bar>pc<bar>endif<bar>bd<cr>$/;"	m
+q	.vim/autoload/plug.vim	/^  nnoremap <silent> <buffer> q :q<cr>$/;"	m
+q	.vim/plugin/mru.vim	/^    nnoremap <buffer> <silent> q :close<CR>$/;"	m
+r	alogin/alogin_env.sh	/^function r()$/;"	f
+rcf	fabric/osec/fabfile.py	/^def rcf():$/;"	f
+replace	unix/gulpfile.js	/^var replace = require('gulp-replace');$/;"	v
+rlen	alogin/tsend.py	/^	rlen = len(line)$/;"	v
+run	csh/uaoam_env.sh	/^alias   run='source ~\/.bashrc'$/;"	a
+runscpt	alogin/alogin_env.sh	/^function runscpt() $/;"	f
+s	alogin/alogin_env.sh	/^function s()$/;"	f
+s:DisplayVifmHelp	.vim/plugin/vifm.vim	/^function! s:DisplayVifmHelp()$/;"	f
+s:DisplayVifmHelp	unix/.vim/plugin/vifm.vim	/^function! s:DisplayVifmHelp()$/;"	f
+s:EnableByDefault	.vim/plugin/python.vim	/^function! s:EnableByDefault(name)$/;"	f
+s:Enabled	.vim/plugin/python.vim	/^function! s:Enabled(name)$/;"	f
+s:GetVifmHelpTopic	.vim/plugin/vifm.vim	/^function! s:GetVifmHelpTopic()$/;"	f
+s:GetVifmHelpTopic	unix/.vim/plugin/vifm.vim	/^function! s:GetVifmHelpTopic()$/;"	f
+s:HandleRunResults	.vim/plugin/vifm.vim	/^function! s:HandleRunResults(exitcode, listf, typef, editcmd)$/;"	f
+s:HandleRunResults	unix/.vim/plugin/vifm.vim	/^function! s:HandleRunResults(exitcode, listf, typef, editcmd)$/;"	f
+s:MRU_AddFile	.vim/plugin/mru.vim	/^function! s:MRU_AddFile(acmd_bufnr)$/;"	f
+s:MRU_Cmd	.vim/plugin/mru.vim	/^function! s:MRU_Cmd(pat)$/;"	f
+s:MRU_Complete	.vim/plugin/mru.vim	/^function! s:MRU_Complete(ArgLead, CmdLine, CursorPos)$/;"	f
+s:MRU_Edit_File	.vim/plugin/mru.vim	/^function! s:MRU_Edit_File(filename, sanitized)$/;"	f
+s:MRU_LoadList	.vim/plugin/mru.vim	/^function! s:MRU_LoadList()$/;"	f
+s:MRU_Open_File_In_Tab	.vim/plugin/mru.vim	/^function! s:MRU_Open_File_In_Tab(fname, esc_fname)$/;"	f
+s:MRU_Open_Window	.vim/plugin/mru.vim	/^function! s:MRU_Open_Window(...)$/;"	f
+s:MRU_Refresh_Menu	.vim/plugin/mru.vim	/^function! s:MRU_Refresh_Menu()$/;"	f
+s:MRU_SaveList	.vim/plugin/mru.vim	/^function! s:MRU_SaveList()$/;"	f
+s:MRU_Select_File_Cmd	.vim/plugin/mru.vim	/^function! s:MRU_Select_File_Cmd(opt) range$/;"	f
+s:MRU_Warn_Msg	.vim/plugin/mru.vim	/^function! s:MRU_Warn_Msg(msg)$/;"	f
+s:MRU_Window_Edit_File	.vim/plugin/mru.vim	/^function! s:MRU_Window_Edit_File(fname, multi, edit_type, open_type)$/;"	f
+s:MRU_add_files_to_menu	.vim/plugin/mru.vim	/^function! s:MRU_add_files_to_menu(prefix, file_list)$/;"	f
+s:MRU_escape_filename	.vim/plugin/mru.vim	/^function! s:MRU_escape_filename(fname)$/;"	f
+s:PreparePath	.vim/plugin/vifm.vim	/^function! s:PreparePath(path)$/;"	f
+s:PreparePath	unix/.vim/plugin/vifm.vim	/^function! s:PreparePath(path)$/;"	f
+s:Python2Syntax	.vim/plugin/python.vim	/^function! s:Python2Syntax()$/;"	f
+s:RunGrep	.vim/plugin/grep.vim	/^function! s:RunGrep(cmd_name, grep_cmd, action, ...)$/;"	f
+s:RunGrep	unix/.vim/plugin/grep.vim	/^function! s:RunGrep(cmd_name, grep_cmd, action, ...)$/;"	f
+s:RunGrepCmd	.vim/plugin/grep.vim	/^function! s:RunGrepCmd(cmd, pattern, action)$/;"	f
+s:RunGrepCmd	unix/.vim/plugin/grep.vim	/^function! s:RunGrepCmd(cmd, pattern, action)$/;"	f
+s:RunGrepRecursive	.vim/plugin/grep.vim	/^function! s:RunGrepRecursive(cmd_name, grep_cmd, action, ...)$/;"	f
+s:RunGrepRecursive	unix/.vim/plugin/grep.vim	/^function! s:RunGrepRecursive(cmd_name, grep_cmd, action, ...)$/;"	f
+s:RunGrepSpecial	.vim/plugin/grep.vim	/^function! s:RunGrepSpecial(cmd_name, which, action, ...)$/;"	f
+s:RunGrepSpecial	unix/.vim/plugin/grep.vim	/^function! s:RunGrepSpecial(cmd_name, which, action, ...)$/;"	f
+s:StartVifm	.vim/plugin/vifm.vim	/^function! s:StartVifm(editcmd, ...)$/;"	f
+s:StartVifm	unix/.vim/plugin/vifm.vim	/^function! s:StartVifm(editcmd, ...)$/;"	f
+s:TYPE	.vim/autoload/plug.vim	/^let s:TYPE = {$/;"	v
+s:append_ul	.vim/autoload/plug.vim	/^function! s:append_ul(lnum, text)$/;"	f
+s:ask	.vim/autoload/plug.vim	/^function! s:ask(message, ...)$/;"	f
+s:ask_no_interrupt	.vim/autoload/plug.vim	/^function! s:ask_no_interrupt(...)$/;"	f
+s:assign_name	.vim/autoload/plug.vim	/^function! s:assign_name()$/;"	f
+s:assoc	.vim/autoload/plug.vim	/^function! s:assoc(dict, key, val)$/;"	f
+s:bang	.vim/autoload/plug.vim	/^function! s:bang(cmd, ...)$/;"	f
+s:bar	.vim/autoload/plug.vim	/^function! s:bar()$/;"	f
+s:base_spec	.vim/autoload/plug.vim	/^let s:base_spec = { 'branch': 'master', 'frozen': 0 }$/;"	v
+s:check_ruby	.vim/autoload/plug.vim	/^function! s:check_ruby()$/;"	f
+s:checkout	.vim/autoload/plug.vim	/^function! s:checkout(spec)$/;"	f
+s:chsh	.vim/autoload/plug.vim	/^function! s:chsh(swap)$/;"	f
+s:clean	.vim/autoload/plug.vim	/^function! s:clean(force)$/;"	f
+s:compare_git_uri	.vim/autoload/plug.vim	/^function! s:compare_git_uri(a, b)$/;"	f
+s:cpo_save	.vim/autoload/plug.vim	/^let s:cpo_save = &cpo$/;"	v
+s:cpo_save	.vim/plugin/grep.vim	/^let s:cpo_save = &cpo$/;"	v
+s:cpo_save	.vim/plugin/mru.vim	/^let s:cpo_save = &cpo$/;"	v
+s:cpo_save	unix/.vim/plugin/grep.vim	/^let s:cpo_save = &cpo$/;"	v
+s:define_commands	.vim/autoload/plug.vim	/^function! s:define_commands()$/;"	f
+s:delete	.vim/autoload/plug.vim	/^function! s:delete(range, force)$/;"	f
+s:delete_op	.vim/autoload/plug.vim	/^function! s:delete_op(type, ...)$/;"	f
+s:diff	.vim/autoload/plug.vim	/^function! s:diff()$/;"	f
+s:dirpath	.vim/autoload/plug.vim	/^  function! s:dirpath(path)$/;"	f
+s:do	.vim/autoload/plug.vim	/^function! s:do(pull, force, todo)$/;"	f
+s:doautocmd	.vim/autoload/plug.vim	/^function! s:doautocmd(...)$/;"	f
+s:dobufread	.vim/autoload/plug.vim	/^function! s:dobufread(names)$/;"	f
+s:err	.vim/autoload/plug.vim	/^function! s:err(msg)$/;"	f
+s:esc	.vim/autoload/plug.vim	/^function! s:esc(path)$/;"	f
+s:esc_filename_chars	.vim/plugin/mru.vim	/^let s:esc_filename_chars = ' *?[{`$%#"|!<>();&' . "'\\t\\n"$/;"	v
+s:escrtp	.vim/autoload/plug.vim	/^function! s:escrtp(path)$/;"	f
+s:extract_name	.vim/autoload/plug.vim	/^function! s:extract_name(str, prefix, suffix)$/;"	f
+s:find_name	.vim/autoload/plug.vim	/^function! s:find_name(lnum)$/;"	f
+s:finish	.vim/autoload/plug.vim	/^function! s:finish(pull)$/;"	f
+s:finish_bindings	.vim/autoload/plug.vim	/^function! s:finish_bindings()$/;"	f
+s:first_rtp	.vim/autoload/plug.vim	/^let s:first_rtp = s:escrtp(get(s:split_rtp(), 0, ''))$/;"	v
+s:format_git_log	.vim/autoload/plug.vim	/^function! s:format_git_log(line)$/;"	f
+s:format_message	.vim/autoload/plug.vim	/^function! s:format_message(bullet, name, message)$/;"	f
+s:git_validate	.vim/autoload/plug.vim	/^function! s:git_validate(spec, check_branch)$/;"	f
+s:git_version_requirement	.vim/autoload/plug.vim	/^function! s:git_version_requirement(...)$/;"	f
+s:glob	.vim/autoload/plug.vim	/^function! s:glob(from, pattern)$/;"	f
+s:glob_dir	.vim/autoload/plug.vim	/^function! s:glob_dir(path)$/;"	f
+s:hash_match	.vim/autoload/plug.vim	/^function! s:hash_match(a, b)$/;"	f
+s:infer_properties	.vim/autoload/plug.vim	/^function! s:infer_properties(name, repo)$/;"	f
+s:install	.vim/autoload/plug.vim	/^function! s:install(force, names)$/;"	f
+s:is_local_plug	.vim/autoload/plug.vim	/^  function! s:is_local_plug(repo)$/;"	f
+s:is_managed	.vim/autoload/plug.vim	/^function! s:is_managed(name)$/;"	f
+s:is_preview_window_open	.vim/autoload/plug.vim	/^function! s:is_preview_window_open()$/;"	f
+s:is_updated	.vim/autoload/plug.vim	/^function! s:is_updated(dir)$/;"	f
+s:is_win	.vim/autoload/plug.vim	/^let s:is_win = has('win32') || has('win64')$/;"	v
+s:job_abort	.vim/autoload/plug.vim	/^function! s:job_abort()$/;"	f
+s:job_cb	.vim/autoload/plug.vim	/^function! s:job_cb(fn, job, ch, data)$/;"	f
+s:job_exit_cb	.vim/autoload/plug.vim	/^function! s:job_exit_cb(self, data) abort$/;"	f
+s:job_out_cb	.vim/autoload/plug.vim	/^function! s:job_out_cb(self, data) abort$/;"	f
+s:last_non_empty_line	.vim/autoload/plug.vim	/^function! s:last_non_empty_line(lines)$/;"	f
+s:last_rtp	.vim/autoload/plug.vim	/^let s:last_rtp  = s:escrtp(get(s:split_rtp(), -1, ''))$/;"	v
+s:lastline	.vim/autoload/plug.vim	/^function! s:lastline(msg)$/;"	f
+s:lines	.vim/autoload/plug.vim	/^function! s:lines(msg)$/;"	f
+s:load_plugin	.vim/autoload/plug.vim	/^function! s:load_plugin(spec)$/;"	f
+s:loaded	.vim/autoload/plug.vim	/^let s:loaded = get(s:, 'loaded', {})$/;"	v
+s:loaded_names	.vim/autoload/plug.vim	/^function! s:loaded_names()$/;"	f
+s:lod	.vim/autoload/plug.vim	/^function! s:lod(names, types, ...)$/;"	f
+s:lod_cmd	.vim/autoload/plug.vim	/^function! s:lod_cmd(cmd, bang, l1, l2, args, names)$/;"	f
+s:lod_ft	.vim/autoload/plug.vim	/^function! s:lod_ft(pat, names)$/;"	f
+s:lod_map	.vim/autoload/plug.vim	/^function! s:lod_map(map, names, with_prefix, prefix)$/;"	f
+s:log	.vim/autoload/plug.vim	/^function! s:log(bullet, name, lines)$/;"	f
+s:log4	.vim/autoload/plug.vim	/^function! s:log4(name, msg)$/;"	f
+s:logpos	.vim/autoload/plug.vim	/^function! s:logpos(name)$/;"	f
+s:lpad	.vim/autoload/plug.vim	/^function! s:lpad(str, len)$/;"	f
+s:mac_gui	.vim/autoload/plug.vim	/^let s:mac_gui = has('gui_macvim') && has('gui_running')$/;"	v
+s:me	.vim/autoload/plug.vim	/^let s:me = resolve(expand('<sfile>:p'))$/;"	v
+s:molokai_original	config/nvim/colors/molokai.vim	/^    let s:molokai_original = 0$/;"	v
+s:molokai_original	config/nvim/colors/molokai.vim	/^    let s:molokai_original = g:molokai_original$/;"	v
+s:molokai_original	nvim/.config/nvim/colors/molokai.vim	/^    let s:molokai_original = 0$/;"	v
+s:molokai_original	nvim/.config/nvim/colors/molokai.vim	/^    let s:molokai_original = g:molokai_original$/;"	v
+s:mru_list_locked	.vim/plugin/mru.vim	/^let s:mru_list_locked = 0$/;"	v
+s:names	.vim/autoload/plug.vim	/^function! s:names(...)$/;"	f
+s:new_window	.vim/autoload/plug.vim	/^function! s:new_window()$/;"	f
+s:nvim	.vim/autoload/plug.vim	/^let s:nvim = has('nvim') && exists('*jobwait') && !s:is_win$/;"	v
+s:nvim_cb	.vim/autoload/plug.vim	/^function! s:nvim_cb(job_id, data, event) dict abort$/;"	f
+s:parse_options	.vim/autoload/plug.vim	/^function! s:parse_options(arg)$/;"	f
+s:path	.vim/autoload/plug.vim	/^  function! s:path(path)$/;"	f
+s:plug_buf	.vim/autoload/plug.vim	/^let s:plug_buf = get(s:, 'plug_buf', -1)$/;"	v
+s:plug_src	.vim/autoload/plug.vim	/^let s:plug_src = 'https:\/\/github.com\/junegunn\/vim-plug.git'$/;"	v
+s:plug_tab	.vim/autoload/plug.vim	/^let s:plug_tab = get(s:, 'plug_tab', -1)$/;"	v
+s:plug_window_exists	.vim/autoload/plug.vim	/^function! s:plug_window_exists()$/;"	f
+s:prepare	.vim/autoload/plug.vim	/^function! s:prepare(...)$/;"	f
+s:preview_commit	.vim/autoload/plug.vim	/^function! s:preview_commit()$/;"	f
+s:progress_bar	.vim/autoload/plug.vim	/^function! s:progress_bar(line, bar, total)$/;"	f
+s:progress_opt	.vim/autoload/plug.vim	/^function! s:progress_opt(base)$/;"	f
+s:reap	.vim/autoload/plug.vim	/^function! s:reap(name)$/;"	f
+s:regress_bar	.vim/autoload/plug.vim	/^function! s:regress_bar()$/;"	f
+s:reload_plugins	.vim/autoload/plug.vim	/^function! s:reload_plugins()$/;"	f
+s:remove_rtp	.vim/autoload/plug.vim	/^function! s:remove_rtp()$/;"	f
+s:remove_triggers	.vim/autoload/plug.vim	/^function! s:remove_triggers(name)$/;"	f
+s:reorg_rtp	.vim/autoload/plug.vim	/^function! s:reorg_rtp()$/;"	f
+s:retry	.vim/autoload/plug.vim	/^function! s:retry()$/;"	f
+s:revert	.vim/autoload/plug.vim	/^function! s:revert()$/;"	f
+s:rm_rf	.vim/autoload/plug.vim	/^function! s:rm_rf(dir)$/;"	f
+s:rtp	.vim/autoload/plug.vim	/^  function! s:rtp(spec)$/;"	f
+s:script_path	.vim/plugin/vifm.vim	/^let s:script_path = expand('<sfile>')$/;"	v
+s:script_path	unix/.vim/plugin/vifm.vim	/^let s:script_path = expand('<sfile>')$/;"	v
+s:section	.vim/autoload/plug.vim	/^function! s:section(flags)$/;"	f
+s:shellesc	.vim/autoload/plug.vim	/^function! s:shellesc(arg)$/;"	f
+s:snapshot	.vim/autoload/plug.vim	/^function! s:snapshot(force, ...) abort$/;"	f
+s:source	.vim/autoload/plug.vim	/^function! s:source(from, ...)$/;"	f
+s:spawn	.vim/autoload/plug.vim	/^function! s:spawn(name, cmd, opts)$/;"	f
+s:split_rtp	.vim/autoload/plug.vim	/^function! s:split_rtp()$/;"	f
+s:status	.vim/autoload/plug.vim	/^function! s:status()$/;"	f
+s:status_load	.vim/autoload/plug.vim	/^function! s:status_load(lnum)$/;"	f
+s:status_update	.vim/autoload/plug.vim	/^function! s:status_update() range$/;"	f
+s:switch_in	.vim/autoload/plug.vim	/^function! s:switch_in()$/;"	f
+s:switch_out	.vim/autoload/plug.vim	/^function! s:switch_out(...)$/;"	f
+s:syntax	.vim/autoload/plug.vim	/^function! s:syntax()$/;"	f
+s:system	.vim/autoload/plug.vim	/^function! s:system(cmd, ...)$/;"	f
+s:system_chomp	.vim/autoload/plug.vim	/^function! s:system_chomp(...)$/;"	f
+s:tick	.vim/autoload/plug.vim	/^function! s:tick()$/;"	f
+s:to_a	.vim/autoload/plug.vim	/^function! s:to_a(v)$/;"	f
+s:to_s	.vim/autoload/plug.vim	/^function! s:to_s(v)$/;"	f
+s:triggers	.vim/autoload/plug.vim	/^let s:triggers = get(s:, 'triggers', {})$/;"	v
+s:trim	.vim/autoload/plug.vim	/^function! s:trim(str)$/;"	f
+s:update	.vim/autoload/plug.vim	/^function! s:update(force, names)$/;"	f
+s:update_finish	.vim/autoload/plug.vim	/^function! s:update_finish()$/;"	f
+s:update_impl	.vim/autoload/plug.vim	/^function! s:update_impl(pull, force, args) abort$/;"	f
+s:update_python	.vim/autoload/plug.vim	/^function! s:update_python()$/;"	f
+s:update_ruby	.vim/autoload/plug.vim	/^function! s:update_ruby()$/;"	f
+s:update_vim	.vim/autoload/plug.vim	/^function! s:update_vim()$/;"	f
+s:upgrade	.vim/autoload/plug.vim	/^function! s:upgrade()$/;"	f
+s:upgrade_specs	.vim/autoload/plug.vim	/^function! s:upgrade_specs()$/;"	f
+s:version_requirement	.vim/autoload/plug.vim	/^function! s:version_requirement(val, min)$/;"	f
+s:vim8	.vim/autoload/plug.vim	/^let s:vim8 = has('patch-8.0.0039') && exists('*job_start')$/;"	v
+s:warn	.vim/autoload/plug.vim	/^function! s:warn(cmd, msg)$/;"	f
+s:with_cd	.vim/autoload/plug.vim	/^function! s:with_cd(cmd, dir)$/;"	f
+sGETPWD	alogin/alogin_env.sh	/^function sGETPWD()$/;"	f
+s_path	fabric/osec/fabfile.py	/^s_path = "\/Users\/basie\/var\/vm_home\/osec"$/;"	v
+s_path	fabric/osec_java/core/fabfile.py	/^s_path = "\/Users\/basie\/Downloads\/demo\/target"$/;"	v
+scriptedPartials	unix/gulpfile.js	/^pipes.scriptedPartials = function() {$/;"	f	function:pipes
+scripts	unix/gulpfile.js	/^    scripts: ['.\/app\/**\/*.js'],$/;"	p	class:paths
+set_theme	alogin/alogin_env.sh	/^function set_theme()$/;"	f
+set_title	alogin/alogin_env.sh	/^function set_title()$/;"	f
+signal_handler	alogin/alogin_env.sh	/^function signal_handler()$/;"	f
+slen	alogin/tsend.py	/^slen=1024 # sleep len$/;"	v
+snd	fabric/osec/fabfile.py	/^def snd():$/;"	f
+snd	fabric/osec/ui_ser_work/fabfile.py	/^def snd():$/;"	f
+snd	fabric/osec_java/core/fabfile.py	/^def snd():$/;"	f
+snd	fabric/osec_java/fabfile.py	/^def snd():$/;"	f
+snd_demo	fabric/osec_java/core/fabfile.py	/^def snd_demo():$/;"	f
+snd_restart	fabric/osec_java/fabfile.py	/^def snd_restart():$/;"	f
+snd_ssh	fabric/osec/fabfile.py	/^def snd_ssh():$/;"	f
+snd_war	fabric/osec_java/core/fabfile.py	/^def snd_war():$/;"	f
+styles	unix/gulpfile.js	/^    styles: [$/;"	p	class:paths
+t	.vim/plugin/mru.vim	/^    nnoremap <buffer> <silent> t$/;"	m
+t	.vim/plugin/mru.vim	/^    vnoremap <buffer> <silent> t$/;"	m
+t	alogin/alogin_env.sh	/^function t()$/;"	f
+t	darwin/.tmux.conf	/^bind -r n select-window -t :+$/;"	k
+t	darwin/.tmux.conf	/^bind -r p select-window -t :-$/;"	k
+t_Co	unix/.vimrc	/^	let t_Co=256$/;"	v
+t_path	fabric/osec/fabfile.py	/^t_path = "\/svc\/tros_v3\/process\/osec";$/;"	v
+t_path	fabric/osec_java/core/fabfile.py	/^t_path = "\/home\/cloud";$/;"	v
+target_path	gulp_file/gulpfile.js	/^var target_path='\/Users\/basie\/Documents';$/;"	v
+tc	alogin/alogin_env.sh	/^function tc()$/;"	f
+thelp	alogin/alogin_env.sh	/^function thelp()$/;"	f
+timer	alogin/alogin_env.sh	/^function timer()$/;"	f
+tlen	alogin/tsend.py	/^tlen=0 # total len$/;"	v
+translate_cname	alogin/alogin_env.sh	/^function translate_cname()$/;"	f
+translate_host	alogin/alogin_env.sh	/^function translate_host()$/;"	f
+trecv	alogin/alogin_env.sh	/^function trecv()$/;"	f
+tsend	alogin/alogin_env.sh	/^function tsend()$/;"	f
+tty	alogin/tsend.py	/^tty=sys.argv[1]$/;"	v
+tver	alogin/alogin_env.sh	/^function tver()$/;"	f
+u	.vim/plugin/mru.vim	/^    nnoremap <buffer> <silent> u :MRU<CR>$/;"	m
+v	.vim/plugin/mru.vim	/^    nnoremap <buffer> <silent> v$/;"	m
+vArray	unix/gulpfile.js	/^    var vArray = {$/;"	c	class:AnonymousFunctiona443ad9b1500
+vMajor	unix/gulpfile.js	/^        vMajor : versionParts[0],$/;"	p	class:AnonymousFunctiona443ad9b1500.vArray
+vMinor	unix/gulpfile.js	/^        vMinor : versionParts[1],$/;"	p	class:AnonymousFunctiona443ad9b1500.vArray
+vPatch	unix/gulpfile.js	/^        vPatch : versionParts[2]$/;"	p	class:AnonymousFunctiona443ad9b1500.vArray
+validatedAppScripts	unix/gulpfile.js	/^pipes.validatedAppScripts = function() {$/;"	f	function:pipes
+validatedIndex	unix/gulpfile.js	/^pipes.validatedIndex = function() {$/;"	f	function:pipes
+validatedPartials	unix/gulpfile.js	/^pipes.validatedPartials = function() {$/;"	f	function:pipes
+version	unix/gulpfile.js	/^    version: '.\/app\/app.constant.js',$/;"	p	class:paths
+versionPath	unix/gulpfile.js	/^    versionPath: '.\/app\/',$/;"	p	class:paths
+vifm#synnames	.vim/plugin/vifm.vim	/^function! vifm#synnames(...) abort$/;"	f
+vifm#synnames	unix/.vim/plugin/vifm.vim	/^function! vifm#synnames(...) abort$/;"	f
+windowPosition	nvim/.config/Hyper/config.json	/^	"windowPosition": [$/;"	a
+windowSize	nvim/.config/Hyper/config.json	/^	"windowSize": [$/;"	a
+xfindcluster	alogin/alogin_env.sh	/^function xfindcluster()$/;"	f
+xfindhost	alogin/alogin_env.sh	/^function xfindhost()$/;"	f
+xfindsvr	alogin/alogin_env.sh	/^function xfindsvr()$/;"	f
+xfindsvr_s	alogin/alogin_env.sh	/^function xfindsvr_s()$/;"	f
+y_path	fabric/osec_java/core/fabfile.py	/^y_path = "\/Users\/basie\/tros_os_core\/tros-root\/tros-api\/target"$/;"	v

@@ -1,0 +1,14 @@
+#!/bin/bash
+
+#alias d.r1='docker run -d -p 10022:22 -p 28080:8080 -p 20080:80 -v c:/:/dsk0 -v d:/:/dsk1 -v e:/:/dsk2 ubuntu:dev'
+#alias d.r='docker run -d -p 10022:22 -p 28080:8080 -p 20080:80 -v /Users/:/dsk0 -v /Volumes/dska1:/dsk1 -v /tmp/:/dsk2 ubuntu:dev'
+
+alias d.r='docker run -d -p 10022:22 -p 28081:8080 -p 20081:80 -h westside01 -v /Users/basie/:/dsk1 -v /Users/basie/var/vm_home/:/dsk0:rw ubuntu:dev'
+alias d.i='docker images' 
+alias d.p='docker ps' 
+#alias d.c='docker commit ubuntu:dev'
+
+function d.i 
+{
+    docker commit $1 ubuntu:dev
+}

@@ -1,0 +1,16 @@
+
+set mouse=a
+
+vmap <LeftRelease>
+imap <S-Insert> <C-R>
+
+syntax enable
+filetype plugin on
+filetype plugin indent on
+
+set path+=**
+set wildmenu
+set ts=4
+set sw=4
+
+command! MakeTags !ctags -R .

@@ -1,0 +1,35 @@
+export CLICOLOR=1
+export LSCOLORS=ExFxCxDxBxegedabagacad
+
+alias ll='ls -altr'
+
+export ALOGIN_ROOT=~/env/alogin
+
+source ~/env/alogin/alogin_env.sh
+
+export PATH=~/env/bin:$PATH
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/
+export PATH=$JAVA_HOME/bin:$PATH:~/tmp/apache-jmeter-3.1/bin:
+
+#export DOCKER_CERT_PATH=/Users/basie/.docker/machine/machines/default
+#export DOCKER_HOST=tcp://127.0.0.1:2376
+#export DOCKER_HOST=tcp://192.168.99.100:2376
+#export DOCKER_HOST=tcp://10.0.2.15:2376
+#export DOCKER_TLS_VERIFY=1
+#export DOCKER_MACHINE_NAME=default
+
+
+alias reload='source ~/.bash_profile'
+alias tstart='~/tomcat/bin/shutdown.sh; sleep 1;~/tomcat/bin/startup.sh'
+alias tlog='tail -f ~/tomcat/logs/cata*.out'
+alias mysqlc='mysql -h58.102.122.211 -uroot -pdatabase_pass tros_v3'
+
+alias d.r='docker run -d -p 10022:22 -p 28080:8080 -p 20080:80 -v /User/basie/var:/tmp/var ubuntu:dev'
+alias t.k='ps -ef | grep tomcat | awk "{print $2}" | head -1 | xargs kill -9; ps -ef | grep tomcat'
+alias t.s='ps -ef | grep tomcat'
+
+source ~/env/docker_cmd/.bashrc.docker
+source ~/env/scripts/userrc
+
+#source ~/.bash-powerline.sh
+

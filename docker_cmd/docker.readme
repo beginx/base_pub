@@ -1,0 +1,16 @@
+docker run -d -p 10022:22 centos
+
+docker run --privileged  -ti -e "container=docker"  -v /sys/fs/cgroup:/sys/fs/cgroup  trinitronx/ansible-base:stable-centos7  /usr/sbin/init
+
+docker run --privileged  -d -p 10022:22  -ti -e "container=docker"  -v /sys/fs/cgroup:/sys/fs/cgroup  centos  /usr/sbin/init
+
+docker commit 7bf155ee5c11 centos:custom_03 이렇게 하믄 저장됨.
+
+https://hub.docker.com/ 여기에 풀해둠
+
+$ docker login --username beginx --password rkwk1q2w --email beginx@naver.com https://hub.docker.com/r/beginx/sykang/
+Warning: '--email' is deprecated, it will be removed soon. See usage.
+Login Succeeded
+
+원드라이브로 링크 만들고 아래명령으로 실행
+docker run -p 5000:5000 -v /dsk_base/one/registry:/dsk_base/one/registry registry

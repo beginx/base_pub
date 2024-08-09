@@ -1,0 +1,104 @@
+/**
+ * Created by bob on 2016-06-29.
+ */
+(function(){
+    "use strict";
+
+    var getTangoCoreUri = function() {
+        var coreUri = 'http://90.90.200.139:20030';
+        if(window.location.hostname === 'www.stg.tango.sktelecom.com') {
+            coreUri = 'http://www.stg.tango.sktelecom.com:8080';
+        }
+        return coreUri;
+    };
+
+    angular.module('app.constant',[])
+        .constant('AppPath', {
+            version: '0.1.2',
+            app :           '/tros3/app',
+            components: {
+                root:       	'/tros3/app/components',
+                hwlist:     	'/tros3/app/components/hwlist/hwlist.template.html',
+                rscCilist:     	'/tros3/app/components/rscCilist/rscCilist.template.html',
+                rscVmlist:     	'/tros3/app/components/rscVmlist/rscVmlist.template.html',
+                tablist:     	'/tros3/app/components/tablist/tablist.template.html',
+                personChg:  	'/tros3/app/components/personChg/personChg.template.html',
+                personChgEdit:	'/tros3/app/components/personChg/personChgEdit.template.html',
+                mtnlist:    	'/tros3/app/components/mtnlist/mtnlist.template.html',
+                umlist:     	'/tros3/app/components/umlist/umlist.template.html',
+                rexlist:    	'/tros3/app/components/rexlist/rexlist.template.html',
+            	nodelist:   	'/tros3/app/components/nodelist/nodelist.template.html',
+            	nodelistEdit:   '/tros3/app/components/nodelist/nodeEditList.template.html',
+                alert:          '/tros3/app/components/alert/alert.template.html',
+                progressInfo:   '/tros3/app/components/progressInfo/progressInfo.template.html',
+                pwConfirm:      '/tros3/app/components/pwConfirm/pwConfirm.template.html',
+                swlist:      	'/tros3/app/components/swlist/swlist.template.html',
+            	swPrvlist:      '/tros3/app/components/swPrvlist/swPrvlist.template.html',
+        		clplist:      	'/tros3/app/components/clplist/clplist.template.html',
+    			abtlist:      	'/tros3/app/components/abtlist/abtlist.template.html',
+    			oplist:      	'/tros3/app/components/oplist/oplist.template.html',
+    			almlist:      	'/tros3/app/components/almlist/almlist.template.html',
+				svlist:      	'/tros3/app/components/svlist/svlist.template.html',
+				calist:      	'/tros3/app/components/calist/calist.template.html',
+				mglist:      	'/tros3/app/components/mglist/mglist.template.html',
+				mtlist:      	'/tros3/app/components/mtlist/mtlist.template.html',
+				ltlist:      	'/tros3/app/components/ltlist/ltlist.template.html'
+            },
+            directives: {
+                loadingcircle:   '/tros3/app/common/directives/loadingcircle.template.html',
+                trstree:        '/tros3/app/common/directives/treenav.template.html'
+            },
+            contents:       	'/tros3/app/contents',
+            layout:  {
+                root:       	'/tros3/app/layout',
+                gnb:        	'/tros3/app/layout/gnb.template.html',
+                shell:      	'/tros3/app/layout/shell.template.html',
+                main:       	'/tros3/app/layout/main.template.html',
+                ir:         	'/tros3/app/layout/ir.template.html',
+                breadcrumb:     '/tros3/app/layout/breadcrumb.template.html',
+                footer:     	'/tros3/app/layout/footer.template.html'
+
+            },
+            rsc :           '/tros3/app/contents/RSC',
+            stt :           '/tros3/app/contents/STT',
+            job :           '/tros3/app/contents/JOB',
+            mng :           '/tros3/app/contents/MNG',
+            usr :           '/tros3/app/contents/USR',
+            dsb :           '/tros3/app/contents/DSB',
+            alm :           '/tros3/app/contents/ALM',
+            tss :           '/tros3/app/contents/TSS',
+            spt :           '/tros3/app/contents/SPT',
+            mnt :           '/tros3/app/contents/MNT'
+        })
+        .constant('ServerPath', {
+//            로컬 서버API
+//            HOST :		'http://localhost:8090',
+//            API_PATH :	'' 
+//            개발 서버API
+            HOST :		'http://58.102.122.166:8090',//XXX
+            API_PATH :	'/tros',//XXX 
+//            판교 서버API
+//            HOST :		'http://218.39.67.234:20030',
+//            API_PATH :	''
+//            보라매 서버API - tro0
+//            HOST :		'http://58.102.122.81:8080',   
+//            API_PATH :	''
+//            보라매 서버API - tro3
+//            HOST :		'http://10.40.100.82:8080',  
+//            API_PATH :	''
+//            HOST :		'http://58.102.122.57:10019',
+//            API_PATH :	''
+//        	  Tango 서버API
+//            HOST :		getTangoCoreUri(),//'http://90.90.200.139:20030',
+//            API_PATH :	'/tros0'
+//            HOST :		'http://localhost:8090',  //내부개발api
+//            API_PATH :	'/tros', 
+        })
+        .constant('Contents', {
+        	// contents 에서 사용되는 상수 모음
+        	delay : 10000 // interval 에 사용되는 delay
+        })
+        ;
+
+
+})();

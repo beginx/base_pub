@@ -1,0 +1,9 @@
+#client
+ssh-keygen -t rsa
+
+ssh-copy-id -i ~/.ssh/id_rsa.pub [user]@[host]
+
+
+# may be fail ... connect server 
+chmod 700 ~/.ssh/
+chmod 600 ~/.ssh/authorized_keys

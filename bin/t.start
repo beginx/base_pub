@@ -1,0 +1,2 @@
+rm -rf ~/tomcat/logs/catalina.out
+~/tomcat/bin/startup.sh

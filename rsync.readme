@@ -1,0 +1,3 @@
+# server -> current dir
+
+rsync -av git@df:/home/git/* ./

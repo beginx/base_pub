@@ -1,0 +1,203 @@
+#########
+# COMMON #
+##########
+
+# Directory
+	
+
+	setenv CC 				gcc
+
+    setenv BIT              32BIT
+
+	setenv UA_COMPILE_OS	linux64  
+
+    setenv UALIB_DEV_HOME		$HOME/ualib
+	setenv UAOAM_DEV_HOME   	$HOME/uaoam
+	setenv UAOAM_PROJECT_HOME   $HOME/uaoss/project
+	setenv UAOAM_EXTLIB_HOME    $HOME/uaoss/extlib
+
+	setenv UANGIN_SRC_HOME	$HOME/UANGIN
+	setenv UALIB_SRC_HOME	$HOME/UALIB
+	setenv OAM_SRC_HOME		$HOME/OAM
+
+	setenv UASYS_64BIT		TRUE
+	setenv UASYS_GUARD		SYSGUARD
+	setenv UASYS_PRODUCT    OMP_SERVER
+	setenv UASYS_RELEASE    SKT_HASCP
+	setenv UASYS_HOME		$HOME/HOME
+	setenv UASYS_EXE_HOME	/home/app/HOME
+	setenv UASYS_GNU_LD		TRUE
+	setenv SCP_HOME			$HOME/HOME 
+	
+	setenv LINUX_KERNEL_VERSION `uname -a| awk '{print $3}'| cut -c1-3`
+
+#	setenv ACTEST_PORT		8206
+#	setenv REMOTE_HOST  	star
+#	setenv UASYS_MSGQTYPE   GSHMQ
+#	setenv UASYS_DBTYPE		SDPMMDB
+#	setenv UASYS_ASNLIB		TOED
+
+    # MY SQL
+	setenv MYSQL_HOME /usr/local/mysql
+	setenv MYSQL_INCLUDE $MYSQL_HOME/include
+	setenv MYSQL_LIB $MYSQL_HOME/lib
+	setenv MYSQL_VERSION 4.1
+	
+	setenv UASYS_NO_ROOT		FALSE
+	setenv UASYS_DUPLICATE_PKG	TRUE
+
+	alias cvsoss 'setenv CVSROOT :pserver:oss@192.168.1.15:/data3/cvsroot_uahlr'
+	setenv CVSROOT :pserver:oss@192.168.1.15:/data3/cvsroot_uahlr
+
+	setenv PKG_BACKUP	/data/ktas/pkg_backup
+
+	setenv PATH 		"$PATH":"$UASYS_HOME"/bin:"$HOME"/bin::$MYSQL_HOME/bin
+	setenv PATH         "$PATH":"$UASYS_HOME"/data/STAT_DB:"$UASYS_HOME"/data/PKG_BACKUP
+	setenv LD_LIBRARY_PATH ${LD_LIBRARY_PATH}:${UASYS_HOME}/lib
+
+
+	# SIGTRAN DEFINE
+#	setenv UASYS_SS7		USIGTRAN
+#	setenv UASYS_SIG_TYPE       M3UA
+#    setenv USIGTRAN_ROOT /opt/USIGTRAN
+#    setenv USIGTRAN_KEYBASE 0x10
+##   source $USIGTRAN_ROOT/etc/usigtran_env.csh
+#    setenv USIGTRAN_ROOT_ENV $USIGTRAN_ROOT
+
+	
+
+#
+# altibase
+#
+	setenv ALTIBASE_HOME	/home2/sktodb/altibase/altibase_v4.3.9_home
+	#setenv ALTIBASE_HOME	/data2/ktas/altibase_home
+	setenv LD_LIBRARY_PATH ${LD_LIBRARY_PATH}:${ALTIBASE_HOME}/lib:${MYSQL_LIB}
+	setenv PATH 		"$PATH":"$ALTIBASE_HOME"/bin
+	setenv ALTIBASE_NLS_USE KO16KSC5601
+
+#
+# PINE LIBRARY
+#
+#	setenv PINE_HOME ~/EXTLIB/pine
+	setenv PINE_HOME ~/pine
+	setenv PINE_LIB $PINE_HOME/lib
+	setenv PINE_INC $PINE_HOME/include
+
+	setenv PINE_DEVEL_HOME ~/EXTLIB/pine
+	setenv PINE_TEMPLATE_REPOSITORY $PINE_DEVEL_HOME/cxx_repository
+	alias pine source $PINE_DEVEL_HOME/.login
+
+#
+# SIP STACK RELATED ENVIRONMENT 
+#
+	setenv ASIF_SRC_HOME   ~/AsifX
+	setenv RVSIP_ROOT ~/EXTLIB/rvsip3.0.5.1
+	setenv RVSIP_SRC  $RVSIP_ROOT/SipTK
+
+# env UALIB
+#	setenv UALIB_DEV_HOME ~/UALIB/src/ualib
+
+#
+# Library Path
+#
+	setenv SHLIB_PATH ${LD_LIBRARY_PATH}:${ALTIBASE_HOME}/lib:/usr/local/mysql/lib:$HOME/HOME/lib:/usr/lib64:$HOME/srg/lib:
+
+if ( $?prompt ) then
+	setenv SEARCH_GLOBALCTAGS "$HOME/tools/TAGS/hlr.tags,$HOME/tools/TAGS/uangin.tags,$HOME/tools/TAGS/ualib.tags"
+	setenv SEARCH_GLOBALETAGS "$HOME/tools/TAGS/hlr.etags,$HOME/tools/TAGS/uangin.etags,$HOME/tools/TAGS/ualib.etags"
+#
+#aliases
+#
+	alias cdata		'cd $UASYS_HOME/data'
+	alias clib		'cd $UASYS_HOME/lib'
+	alias cbin		'cd $UASYS_HOME/bin'
+	alias loc  		'cd $HLRSVC_SRC_HOME/src/slp/gsm_locu/'
+	alias coam 		'cd ~/OAM/src'
+	alias cdoam		'cd ~/OAM'
+	alias cualib 	'cd ~/UALIB/src'
+	alias cdualib	'cd ~/UALIB'
+	alias cuangin	'cd ~/UANGIN/src'
+	alias clog 		'cd ~/HOME/log'
+	alias chlr		'cd ~/HOME'
+	alias cls		'clear'
+    alias cuxlib    'cd $HOME/UANGN/UXLIB/src/uxlib'
+    alias ctool     'cd $HOME/ualib/tools'
+	alias cdoxy		'cd $HOME/ualib/doc'
+
+    alias cualib    'cd $HOME/ualib'
+    alias cuaoam    'cd $HOME/uaoam'
+
+    alias cualibs   'cd $HOME/ualib/src/ualib'
+    alias cualibi   'cd $HOME/ualib/include/ualib'
+    alias cuasock   'cd $HOME/ualib/src/uasock'
+    alias cuasocki  'cd $HOME/ualib/include/uasock'
+    alias cuammc    'cd $HOME/ualib/src/uammc'
+    alias cuammci   'cd $HOME/ualib/include/uammc'
+    alias cuaoamifs 'cd $HOME/ualib/src/uaoamif'
+    alias cuaoamifi 'cd $HOME/ualib/include/uaoamif'
+    alias ctool     'cd $HOME/ualib/tools'
+    alias ctool     'cd $HOME/ualib/tools'
+
+    alias cuaoams   'cd $HOME/uaoam/libsrc/uaoam'
+    alias cuaoami   'cd $HOME/uaoam/include/uaoam'
+    alias cuaxml    'cd $HOME/uaoam/libsrc/uaxml'
+    alias cuaxmli   'cd $HOME/uaoam/include/uaxml'
+    alias cuastat   'cd $HOME/uaoam/libsrc/uastat'
+    alias cuarts    'cd $HOME/uaoam/libsrc/uarts'
+    alias cuartsi   'cd $HOME/uaoam/include/uarts'
+    alias cuamysql  'cd $HOME/uaoam/libsrc/uamysql'
+    alias cuamysqli 'cd $HOME/uaoam/include/uamysql'
+    alias cuacalc   'cd $HOME/uaoam/libsrc/uacalc'
+    alias cuacalci  'cd $HOME/uaoam/include/uacalc'
+    alias cuamhand  'cd $HOME/uaoam/libsrc/uamhand'
+    alias cuamhandi 'cd $HOME/uaoam/include/uamhand'
+    alias cuaprn    'cd $HOME/uaoam/libsrc/uaprn'
+
+    alias cuasamd   'cd $HOME/uaoam/src/uasamd'
+    alias comsib    'cd $HOME/uaoam/src/omsib'
+    alias clogib    'cd $HOME/uaoam/src/logib'
+    alias comsd     'cd $HOME/uaoam/src/omsd'
+    alias comsproxy 'cd $HOME/uaoam/src/omsproxy'
+    alias comc      'cd $HOME/uaoam/src/omc'
+    alias cstsd     'cd $HOME/uaoam/src/stsd'
+    alias csumd     'cd $HOME/uaoam/src/sumd'
+    alias cmmcd     'cd $HOME/uaoam/src/mmcd'
+    alias cmess		'cd $HOME/uaoam/src/messhand'
+    alias cuaguard 	'cd $HOME/uaoam/src/cuaguard'
+    alias crmi 	    'cd $HOME/uaoam/src/mmcd/rmi'
+    alias cftrd 	'cd $HOME/uaoam/src/ftrd'
+
+	alias csktscp	'cd $HOME/uaoss/project/SKTSCP/HASCP/src'
+	alias csktsdp	'cd $HOME/uaoss/project/SKTSCP/USDP/src'
+	alias csktsmp	'cd $HOME/uaoss/project/SKTSCP/HASMP/src'
+	alias csigmgt   'cd $HOME/uaoss/product/SIGTRAN/src/sigmgt'
+
+    alias tomps     'telnet angel'
+    alias tscp1     'telnet cobra'
+    alias tscp2     'telnet ocss7'
+    alias tsdp1     'telnet viper'
+    alias tsdp2     'telnet star'
+
+	alias jc		'jam clean'
+	alias ji		'jam install'
+
+	alias cvss      'cvs -Q status | awk -f ~/script/cvsstatus'
+
+	alias cvssip	'setenv CVSROOT :pserver:hoonji@camel:/data3/cvsroot_osa'
+
+	alias ualib		'cd ~/UALIB/src/ualib'
+
+#########################################################
+	if ( $?prompt ) then
+    echo :
+    echo :
+    echo :  "UANGEL SMP DEVELOPMENT ENVIRONMENT"
+    echo :
+#    source $HOME/HOME/.front_entrance
+    echo :
+    echo :
+endif
+
+
+endif
+

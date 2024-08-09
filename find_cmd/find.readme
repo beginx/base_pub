@@ -1,0 +1,4 @@
+#폴더(및 하위폴더)에서 생성시각이 지정한 분(minute) 이상 경과된 파일 삭제
+
+find /[Search Path] -mmin +[Minute Value] -exec rm -f {} \;
+

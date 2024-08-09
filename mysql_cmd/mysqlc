@@ -1,0 +1,14 @@
+DB명 : tros_v3
+username : root
+password : database_pass
+
+==============================================================================================
+jdbc.url = jdbc:mysql://192.168.41.132:3306/tros_v3?useUnicode=true&characterEncoding=UTF-8
+jdbc.username = root
+jdbc.password = database_pass
+
+mysql -u root -p -h 192.168.41.130 root/database_root
+Use neodc
+
+mysql -u root -p -h 192.168.41.132 root/database_pass
+use tros_v3

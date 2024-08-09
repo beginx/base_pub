@@ -1,0 +1,6 @@
+mysqldump --add-drop-database -ucoiner -hcin0 -p coiner > c.txt
+
+mysqldump --add-drop-database -ucoiner -p coiner > dump.sql
+
+
+mysql -uroot -p coiner < ./dump.sql

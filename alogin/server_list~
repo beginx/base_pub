@@ -1,0 +1,51 @@
+#protocol  	host				user				passwd           	port     	gateway             
+#--------- -------------------- ------------------- ------------------- ----------- --------------------
+# GateWay
+telnet	   	ktpgw				support				CynnopT		  		-	   		nexus
+ssh	   		sktlgw				root				root.123	  		-	   		nexus
+
+telnet 		atcasw				sktsmc				skt.123				-			-
+ssh			sktgw				sktsmc				feb!02*02			9598		atcasw
+
+ssh         cin0              	app              	shin88           	-           -
+ssh         cin1              	app              	shin88           	-           -
+ssh         cin0              	root              	dlvkstkvks048!!    	-           -
+ssh         cin1              	root              	dlvkstkvks048!!    	-           -
+ssh         gs              	app              	shin88           	-           -
+ssh         df              	app              	app.123           	-           -
+ssh         df              	root              	Tkdghkanftks!      	-           -
+ssh         ms              	app              	shin88           	-           -
+ssh         ms              	root              	rkwk1q2w           	-           -
+ssh         dc              	app               	shin88           	10022       -
+ssh         dc              	eva02              	shin88           	10022       -
+ssh         dc              	dev               	shin88           	10022       -
+ssh         dc              	dev02              	shin88           	10022       -
+ssh         pg              	cloud               cloud000@           10022       -
+ssh         pg.tcore           	tcore               tcore!23            2222        -
+ssh         pg.core            	cloud               cloud000@           22          pg
+ssh         pangyo              cloud               cloud000@           10022       -
+ssh			br.gw				tros3				cloud000@			-			-
+ssh			br.ui				suser				cloud000@			10001		br.gw
+ssh			br.core				suser				cloud000@			10002		br.gw
+
+#--------- -------------------- ------------------- ------------------- ----------- --------------------
+ssh			redmine				cloudpart3			asdf				-			-
+ssh			prv_rdm				app					shin88				-			-
+ssh			sunrise				app					shin88				-			-
+ssh			tb					cloud				cloud000@			-			-
+ssh			cloudpart3			cloudpart3			asdf				-			-
+
+ssh         pangyo_core         cloud				cloud000@           -       	pangyo	
+ssh         c.core              cloud               cloud000@           -           -
+ssh         c.core              root                cloud000@           -           -
+ssh         c.core              member              shin88              -           -
+ssh         c.ui                cloud               cloud000@           -           -
+ssh         c_db                cloud               cloud000@           -           -
+ssh         c.osl               cloud               cloud000@           -           -
+ssh         c.osk               cloud               cloud000@           -           -
+ssh         c_os                cloud               cloud000@           -           -
+ssh         sunrise             root                cloud000@           -           -
+ssh         test02              root                cloud000@           -           -
+ssh         test01              cloud               cloud000@           -           -
+
+

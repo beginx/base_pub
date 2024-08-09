@@ -1,0 +1,411 @@
+###################################################
+#
+#  UANGEL OCS DEVELOPMENT ENVIRONMENT
+#
+###################################################
+
+###################################################
+# CVS Related Environment
+###################################################
+alias h  'history'
+alias cvu  'cvs update -d -P'
+alias cvi  'cvs commit'
+alias cva  'cvs add'
+alias cvr  'cvs remove'
+alias cvd  'cvs diff'
+alias cvst 'cvs status -v'
+alias cvl  'cvs log'
+alias cvss 'cvs -Q status | awk -f ~/script/cvsstatus'
+
+alias cvshlr  'setenv CVSROOT :pserver:telkom@192.168.1.15:/data3/cvsroot_uahlr'
+alias cvsosa  'setenv CVSROOT :pserver:hoonji@192.168.1.15:/data3/cvsroot_osa'
+alias cvsngn  'setenv CVSROOT :pserver:hoonji@192.168.1.15:/data3/cvsroot_ngn'
+alias cvssig  'setenv CVSROOT :pserver:proto@192.168.1.15:/data3/cvsroot_protocol'
+alias cvsoss 'setenv CVSROOT :pserver:oss@192.168.1.15:/data3/cvsroot_uahlr'
+alias cvshascp 'setenv CVSROOT :pserver:hascp@camel:/data3/cvsroot_uahlr'
+
+###################################################
+#for exhuberent ctags
+###################################################
+setenv CTAGS "--excmd=pattern"
+setenv SEARCH_GLOBALCTAGS ""
+setenv SEARCH_GLOBALETAGS ""
+
+###################################################
+# UANGEL Soulution Rleated Environment
+##################################################
+setenv CC               gcc # gcc, aCC
+setenv UASYS_64BIT     	TRUE
+setenv UASYS_OSPLAT		linux
+setenv UASYS_USE_SHMQ   FALSE
+
+setenv UALIB_SRC_HOME   $HOME/UALIB
+setenv UANGIN_SRC_HOME  $HOME/UANGIN
+setenv OAM_SRC_HOME     $HOME/OAM
+setenv UAOAM_PROJECT_HOME $HOME/uaoss/project
+setenv UAOAM_PRODUCT_HOME $HOME/uaoss/product
+setenv UAOAM_EXTLIB_HOME  $HOME/uaoss/extlib
+setenv BcNSVC_SRC_HOME  $HOME/BcNSVC
+setenv NGNSVC_SRC_HOME  $HOME/NGNSVC
+setenv HLRSVC_SRC_HOME  $HOME/HLRSVC
+setenv HLR_SRC_HOME     $HOME/HLRSVC
+setenv SCHEMA_SRC_HOME  "$UALIB_SRC_HOME"/etc
+
+# NEW UALIB
+setenv UALIB_DEV_HOME   $HOME/ualib
+setenv UAOAM_DEV_HOME   $HOME/uaoam
+
+## UANGIN COMPILE FLAGS ##
+setenv UASYS_PRODUCT    SDP  		# SCP, HLR, GMLC, SMSC, SDP, NPDBSCP, NGNAS, PAM, NGN
+setenv UASYS_RELEASE    SKT_UOCS 	# TELKOM, UNITEL, TELKOM_PGW
+setenv UASYS_STACK      SINGLE 		# SINGLE, DUAL
+setenv UASYS_DBTYPE     SDPALTIBASE   # ALTIBASE, MMDB, MMDB_REPL
+setenv UASYS_HOME       $HOME/HOME
+setenv UASYS_SS7        NONE   		# USIGTRAN, HPSS7, NONE
+setenv STACK            SOFIA  
+setenv SS7TYPE          NONE    		# SS7, HPSIGTRAN, USIGTRAN
+setenv SIGTRAN_TYPE     M3UA   		# M3UA, SUA
+setenv UASYS_GUARD 		HAGUARD
+
+setenv HLR_HOME         $HOME/HOME
+setenv NGN_HOME         $HOME/HOME
+setenv OSA_HOME         $HOME/HOME
+setenv OSIF_HOME        $HOME/HOME
+setenv SYS_EXE_HOME     $HOME/HOME
+setenv UASYS_EXE_HOME   $HOME/HOME
+#setenv ACTEST_PORT  8206
+#setenv REMOTE_HOST      star
+#setenv UASYS_MSGQTYPE   GSHMQ
+#setenv UASYS_DBTYPE SDPMMDB
+#setenv UASYS_ASNLIB TOED
+
+setenv UASYS_NO_ROOT            FALSE # or FALSE
+setenv UASYS_DUPLICATE_PKG      TRUE  # or FALSE
+setenv PERL_BADLANG
+setenv SVN_EDITOR               vim
+setenv USER                     sktocs
+
+setenv UASYS_GNU_LD     TRUE
+setenv UA_USE_SOAP_LOG  FALSE
+#setenv LINUX_KERNEL_VERSION  2.6
+setenv LINUX_KERNEL_VERSION `uname -a| awk '{print $3}'| cut -c1-3`
+
+setenv PATH         "$PATH":"$UASYS_HOME"/bin:"$HOME"/bin
+setenv LD_LIBRARY_PATH "$LD_LIBRARY_PATH":${UASYS_HOME}/lib
+
+setenv SEARCH_GLOBALCTAGS "${SEARCH_GLOBALCTAGS},${HOME}/script/TAGS/ualib.tags,${HOME}/script/TAGS/oam.tags,${HOME}/script/TAGS/udia.tags,${HOME}/script/TAGS/uxlib.tags,${HOME}/script/TAGS/lua.tags,${HOME}/script/TAGS/sktsvc.tags"
+#setenv SEARCH_GLOBALETAGS "${SEARCH_GLOBALETAGS},${HOME}/TAGS/ualib.etags,${HOME}/TAGS/oam.etags,${HOME}/TAGS/uangin.etags"
+
+###################################################
+# NODEJS Configuration
+###################################################
+setenv LOG_DIR_PATH $HOME/home/log
+setenv LOG_BASIC_RULE "PROCESS_NAME/PROCESS_NAME.YYYYMMDD"
+
+###################################################
+# SKTSVC Configuration
+###################################################
+setenv SKTSVC_SRC_HOME   $HOME/SKTSVC
+setenv LD_LIBRARY_PATH ${LD_LIBRARY_PATH}:${SKTSVC_SRC_HOME}/lib
+
+###################################################
+# UXLIB Configuration
+###################################################
+setenv UXLIB_SRC_HOME   $HOME/UANGN/UXLIB
+setenv LD_LIBRARY_PATH ${LD_LIBRARY_PATH}:${UXLIB_SRC_HOME}/lib
+
+###################################################
+# UDIAMETER Configuration 
+###################################################
+setenv UDIA_SRC_HOME ${HOME}/UANGN/udia
+setenv LD_LIBRARY_PATH ${LD_LIBRARY_PATH}:${UDIA_SRC_HOME}/lib
+
+###################################################
+# UXCUTOR Configuration
+###################################################
+setenv UXCUTOR_SRC_HOME   $HOME/UANGN/UXCUTOR
+
+###################################################
+# CCF Library Configuration
+###################################################
+setenv CCF_SRC_HOME   $HOME/OCS
+setenv OCS_SRC_HOME   $HOME/OCS
+
+###################################################
+#  Opencall Stack Configuation
+###################################################
+setenv HP_AIN_DEBUG_CONFIG          /etc/opt/HP-AIN/config/debug.conf
+setenv HP_AIN_CONFIG_FILE           /etc/opt/HP-AIN/config/global.conf
+setenv HP_AIN_WORKING_CONFIG_DIR    /var/opt/HP-AIN/working_config
+setenv HP_AIN_DEBUG_CATALOG         /etc/opt/HP-AIN/ttl/hp-ain_english.cat
+
+###################################################
+# OSA-Paralay Gateway Configuration
+###################################################
+setenv OSA_DEVEL_HOME ${HOME}/UANGN/upgw
+setenv OSIF_DEVEL_HOME ${HOME}/UANGN/OSIF
+
+###################################################
+# Paralay-X Gateway Configuration
+###################################################
+setenv PXGW_HOME ${HOME}/UANGN/upxgw
+setenv UA_USE_SOAP_LOG TRUE
+setenv SEARCH_GLOBALCTAGS "${SEARCH_GLOBALCTAGS},${PXGW_HOME}/TAGS/px_common.tags,${PXGW_HOME}/TAGS/udbc.tags,${PXGW_HOME}/TAGS/pxdb.tags"
+#setenv SEARCH_GLOBALETAGS "${SEARCH_GLOBALETAGS},${PXGW_HOME}/TAGS/px_libs.etags"
+
+##################################################
+#   usigtran runtime env
+##################################################
+setenv USIGTRAN_ROOT /opt/usigtran
+setenv USIGTRAN_PKG_ROOT $USIGTRAN_ROOT
+
+###################################################
+# PINE Configuration
+###################################################
+setenv PINE_DEVEL_HOME ${HOME}/UANGN/pine
+setenv PINE_LIB $PINE_DEVEL_HOME/lib
+setenv PINE_INC $PINE_DEVEL_HOME/include
+setenv PINE_TEMPLATE_REPOSITORY $PINE_DEVEL_HOME/cxx_repository
+alias pine source $PINE_DEVEL_HOME/.login
+
+###################################################
+# ASIF Configuration
+###################################################
+setenv ASIF_SRC_HOME   ${HOME}/UANGN/AsifX
+setenv LD_LIBRARY_PATH ${LD_LIBRARY_PATH}:${ASIF_SRC_HOME}/lib
+
+setenv SEARCH_GLOBALCTAGS "${SEARCH_GLOBALCTAGS},${HOME}/tools/TAGS/asif.tags"
+setenv SEARCH_GLOBALETAGS "${SEARCH_GLOBALETAGS},${HOME}/tools/TAGS/asif.etags"
+
+###################################################
+# UASIM Configuration
+###################################################
+setenv UASIM_HOME   ${HOME}/uasim
+
+###################################################
+# JAVA Related Environment
+###################################################
+setenv JAVA_HOME /usr/local/java
+setenv CLASSPATH  "."
+setenv JTAS_HOME /home/jtas/jtas3.0
+
+setenv PATH  "$PATH":"$JAVA_HOME"/bin
+
+###################################################
+# RADVISION SIP STACK
+###################################################
+setenv RVSIP_ROOT ${HOME}/EXTLIBS/RVSTACK/package
+setenv RVSIP_SRC  $RVSIP_ROOT/SipTK
+
+setenv SEARCH_GLOBALCTAGS "${SEARCH_GLOBALCTAGS},${HOME}/tools/TAGS/rv.tags"
+setenv SEARCH_GLOBALETAGS "${SEARCH_GLOBALETAGS},${HOME}/tools/TAGS/rv.etags"
+
+###################################################
+# ALTIBASE Configuration
+###################################################
+#setenv ALTIBASE_HOME   /data1/altibase/home
+setenv ALTIBASE_HOME   /data1/altibase/altibase_v4.3.9_home
+setenv PATH            "$ALTIBASE_HOME"/bin:"$PATH"
+setenv LD_LIBRARY_PATH "$LD_LIBRARY_PATH":"$ALTIBASE_HOME"/lib
+setenv ALTIBASE_NLS_USE KO16KSC5601
+
+#########################################################
+# MYSQL Environement
+#########################################################
+setenv MYSQL_HOME /usr/local/mysql
+setenv MYSQL_INCLUDE $MYSQL_HOME/include
+setenv MYSQL_LIB $MYSQL_HOME/lib
+#setenv MYSQL_VERSION 4.1
+setenv MYSQL_VERSION 5.0
+
+set path = ($path $MYSQL_HOME/bin)
+setenv LD_LIBRARY_PATH ${LD_LIBRARY_PATH}:${MYSQL_HOME}/lib
+
+###################################################
+# ORACLE Client Configuration (10.2.0)
+###################################################
+setenv ORACLE_HOME /home/oracle/oracle/product/10.2.0/client_1
+setenv OCI_HOME ${ORACLE_HOME}/rdbms/public
+setenv LD_LIBRARY_PATH ${LD_LIBRARY_PATH}:${ORACLE_HOME}/lib
+setenv PATH "$PATH":"$ORACLE_HOME/bin"
+
+#########################################################
+# SOFIA SIP Related Environement
+#########################################################
+setenv SOFIA_HOME ${HOME}/EXTLIBS/SOFIA/package
+setenv LD_LIBRARY_PATH ${LD_LIBRARY_PATH}:${SOFIA_HOME}/lib
+
+setenv SEARCH_GLOBALCTAGS "${SEARCH_GLOBALCTAGS},${HOME}/tools/TAGS/sofia.tags"
+setenv SEARCH_GLOBALETAGS "${SEARCH_GLOBALETAGS},${HOME}/tools/TAGS/sofia.etags"
+
+setenv SOFIA_DEBUG 9
+setenv NUA_DEBUG 9
+setenv NTA_DEBUG 9
+setenv SU_DEBUG 9
+setenv TPORT_DEBUG 9
+setenv TPORT_LOG 9
+
+#setenv SOFIA_DEBUG 
+#setenv NUA_DEBUG 
+#setenv NTA_DEBUG 
+#setenv SU_DEBUG 
+#setenv TPORT_DEBUG 
+#setenv TPORT_LOG 
+
+#########################################################
+# ORB ACUS Related Environement
+#########################################################
+setenv ORB orbacus
+setenv ORBACUS_HOME ${HOME}/EXTLIBS/ORBACUS/package
+#setenv ORBACUS_HOME /data1/pgw/ORBacus-aCC32
+setenv PATH "$PATH":"$ORBACUS_HOME"/bin
+setenv LD_LIBRARY_PATH ${LD_LIBRARY_PATH}:${ORBACUS_HOME}/lib
+
+#setenv SEARCH_GLOBALCTAGS "${SEARCH_GLOBALCTAGS},${HOME}/tools/TAGS/orbacus.tags"
+#setenv SEARCH_GLOBALETAGS "${SEARCH_GLOBALETAGS},${HOME}/tools/TAGS/orbacus.etags"
+
+#########################################################
+# Crypto++ Related Environement
+#########################################################
+setenv CRYPTOPP_HOME ${HOME}/EXTLIBS/CRYPTOPP/package
+
+#setenv SEARCH_GLOBALCTAGS "${SEARCH_GLOBALCTAGS},${HOME}/tools/TAGS/cryptopp.tags"
+#setenv SEARCH_GLOBALETAGS "${SEARCH_GLOBALETAGS},${HOME}/tools/TAGS/cryptopp.etags"
+
+#########################################################
+# APACHE WEBSERVER Environement
+#########################################################
+#setenv APACHE2_HOME ${HOME}/EXTBINS/APACHE/package
+setenv APACHE2_HOME /usr/local/apache2
+set path = ($path $APACHE2_HOME/bin)
+setenv LD_LIBRARY_PATH ${LD_LIBRARY_PATH}:${APACHE2_HOME}/lib:${APACHE2_HOME}/modules
+
+#########################################################
+# TOMCAT Environement
+#########################################################
+setenv CATALINA_HOME ${HOME}/EXTBINS/TOMCAT/tomcat
+set path = ($path $CATALINA_HOME/bin)
+setenv LD_LIBRARY_PATH ${LD_LIBRARY_PATH}:${CATALINA_HOME}/lib
+
+
+#########################################################
+# GSOAP - SOAP Engine Environement
+#########################################################
+setenv GSOAP_HOME ${HOME}/EXTLIBS/GSOAP/package
+set path = ($path $GSOAP_HOME/bin)
+setenv LD_LIBRARY_PATH ${LD_LIBRARY_PATH}
+setenv SEARCH_GLOBALCTAGS "${SEARCH_GLOBALCTAGS},${HOME}/tools/TAGS/gsoap.tags"
+setenv SEARCH_GLOBALETAGS "${SEARCH_GLOBALETAGS},${HOME}/tools/TAGS/gsoap.etags"
+
+#########################################################
+# AXIS Environement
+#########################################################
+setenv AXIS_HOME ${HOME}/EXTLIBS/AXISJAVA/axis-1_4
+setenv AXIS_LIB $AXIS_HOME/lib#setenv AXISCLASSPATH .:$AXIS_LIB/axis.jar:$AXIS_LIB/commons-discovery-0.2.jar:$AXIS_LIB/commons-logging-1.0.4.jar:$AXIS_LIB/jaxrpc.jar:$AXIS_LIB/saaj.jar:$AXIS_LIB/log4j-1.2.8.jar:$AXIS_LIB/wsdl4j-1.5.1.jar
+#$AXIS_LIB/xml-apis.jar:$AXIS_LIB/xerces.jar:$AXIS_LIB/wsdl4j-1.5.1.jar:$AXIS_LIB/px2_0_client.jar
+#setenv CLASSPATH .:$AXIS_HOME/lib/axis.jar
+#alias wsdl2java 'java -cp $AXISCLASSPATH org.apache.axis.wsdl.WSDL2Java'
+
+#########################################################
+# AXIS Environement
+#########################################################
+setenv AXIS2_HOME ${HOME}/EXTLIBS/AXISJAVA2/axis2-1.3
+setenv AXIS2_LIB $AXIS_HOME/lib
+set path = ($path $AXIS2_HOME/bin)
+
+#########################################################
+# ANT Environement
+#########################################################
+setenv ANT_HOME /usr/local/ant
+set path = ($path $ANT_HOME/bin)
+
+#########################################################
+# DOXYGEN Environement
+#########################################################
+setenv DOXYGEN_HOME ${HOME}/EXTBINS/doxygen
+set path = ($path $DOXYGEN_HOME/bin)
+
+#########################################################
+# PYTHON Environement
+#########################################################
+setenv ACTEST_PORT  5502
+setenv PYTHONPATH .:$HOME/UAHLR/ACTEST.unitel/SIM/acceptance
+
+setenv LUA_HOME "/usr/local"
+setenv LUA_CPATH "$HOME/HOME/lib/lib?.so;./lib?.so"
+setenv LUA_PATH "$HOME/HOME/lua/script/?.lua;./?.lua"
+
+#########################################################
+# alias for safetty & convenience
+#########################################################
+
+##alias ctest  'cd "$NGNSVC_SRC_HOME"/src/SVC/PROJ/UANGEL/stacktest'
+alias casif  'cd "$ASIF_SRC_HOME"/src/asif'
+alias cual   'cd "$ASIF_SRC_HOME"/src/ualsofia'
+alias csof   'cd "$ASIF_SRC_HOME"/src/common/sofia'
+alias cdata  'cd "$NGN_HOME"/data'
+alias clog   'cd "$NGN_HOME"/log'
+alias crate  'cd "$NGN_HOME"/rating/'
+alias cjar   'cd "$NGN_HOME"/jar/'
+##alias csofia 'cd "$HOME"/EXTLIBS/SOFIA/sofia-sip-1.11.8/libsofia-sip-ua/nta'
+alias clib      'cd $UASYS_HOME/lib'
+alias cbin      'cd $UASYS_HOME/bin'
+alias csql		'cd $UASYS_HOME/data/SQL'
+alias cdoam      'cd $HOME/OAM/src'
+alias cdualib    'cd $HOME/UALIB/src'
+alias cuaoam	'cd $HOME/uaoam/'
+alias cualib    'cd $HOME/ualib/'
+
+alias cualibs   'cd $HOME/ualib/src/ualib'
+alias cualibi   'cd $HOME/ualib/include/ualib'
+alias cuasock   'cd $HOME/ualib/src/uasock'
+alias cuasocki  'cd $HOME/ualib/include/uasock'
+alias cuaxml    'cd $HOME/ualib/src/uaxml'
+alias cuaxmli   'cd $HOME/ualib/include/uaxml'
+alias cuammc    'cd $HOME/ualib/src/uammc'
+alias cuammci   'cd $HOME/ualib/include/uammc'
+alias ctool     'cd $HOME/ualib/tools'
+alias cocs      'cd $HOME/uaoss/project/SKTOCS'
+alias csktsdp   'cd $HOME/uaoss/project/SKTSDP'
+alias csktocs   'cd $HOME/uaoss/project/SKTOCS'
+alias csktocsdb	'cd $HOME/uaoss/project/OCSDB'
+
+alias cuaoams   'cd $HOME/uaoam/libsrc/uaoam'
+alias cuaoami   'cd $HOME/uaoam/include/uaoam'
+alias cuastat   'cd $HOME/uaoam/libsrc/uastat'
+alias cuarts    'cd $HOME/uaoam/libsrc/uarts'
+alias cuartsi   'cd $HOME/uaoam/include/uarts'
+alias cuamysql  'cd $HOME/uaoam/libsrc/uamysql'
+alias cuamysqli 'cd $HOME/uaoam/include/uamysql'
+alias cuacalc   'cd $HOME/uaoam/libsrc/uacalc'
+alias cuacalci  'cd $HOME/uaoam/include/uacalc'
+alias cuamhand  'cd $HOME/uaoam/libsrc/uamhand'
+alias cuamhandi 'cd $HOME/uaoam/include/uamhand'
+alias cuaprn    'cd $HOME/uaoam/libsrc/uaprn'
+
+alias chaguard	'cd $HOME/uaoss/product/HAGUARD/src'
+alias cextlib	'cd $HOME/uaoss/extlib'
+
+alias c			'clear'
+##alias q		'exit'
+alias cuxcutor 	'cd $HOME/UANGN/UXCUTOR/src/uxcutor'
+setenv CMONTH  	`date +'%m'`
+alias ctrc		'cd $UASYS_HOME/log/trace/$CMONTH'
+
+###################################################
+# PPS SIM PORT FILE PATH 
+###################################################
+setenv PPS_PORT_ENV_PATH /data2/sktocs/simulator/cssim/pps/pps_cssim
+
+#########################################################
+# ETC
+#########################################################
+if ( $?prompt ) then
+    echo :
+    echo :
+	echo :  "UANGEL OCS DEVELOPMENT ENVIRONMENT"
+	echo :
+	source $HOME/HOME/.front_entrance
+	echo :
+	echo :
+endif

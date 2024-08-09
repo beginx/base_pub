@@ -1,0 +1,32 @@
+#export CLICOLOR=1
+#export LSCOLORS=ExFxCxDxBxegedabagacad
+
+alias ls='ls --color=auto'
+
+PS1='${debian_chroot:+($debian_chroot)}\[\033[36m\]\u\[\033[m\]@\[\033[32m\]\h:\[\033[33;1m\]\W\[\033[m\]\$ '
+
+alias ll='ls -altr'
+alias cgs='ssh app@211.226.204.74'
+
+export ALOGIN_ROOT=~/env/alogin
+source ~/env/alogin/alogin_env.sh
+
+export JAVA_HOME=/usr/lib/jvm/java-8-oracle
+export PATH=$JAVA_HOME/bin:~/script:$PATH:
+
+alias reload='source ~/.bash_profile'
+alias tstart='~/tomcat/bin/shutdown.sh; sleep 1;~/tomcat/bin/startup.sh'
+alias tlog='tail -f ~/tomcat/logs/cata*.out'
+alias mysqlc='mysql -h58.102.122.211 -uroot -pdatabase_pass tros_v3'
+
+alias d.r='docker run -d -p 10022:22 -p 28080:8080 -p 20080:80 -v /User/basie/var:/tmp/var ubuntu:dev'
+
+source ~/env/docker_cmd/.bashrc.docker
+source ~/env/scripts/userrc
+
+#source ~/.bash-powerline.sh
+export PATH="/home/app/.linuxbrew/bin:$PATH"
+export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/home/app/.linuxbrew/opt/python3/lib:/home/app/.linuxbrew/opt/libcouchbase/lib"        
+
+#WSL - sudo apt purge libpulse0
+

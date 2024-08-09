@@ -1,0 +1,45 @@
+
+# for CKT SCP Compile Environment
+export CC=cc
+export UASYS_PRODUCT=OMP_SERVER
+export UASYS_RELEASE=TELKOMSEL_SCP
+
+export UASYS_DBTYPE=MMDB
+export UASYS_SS7=USIGTRAN
+export UASYS_SIG_TYPE=M3UA
+
+export UASYS_GUARD=SYSGUARD      # SYSGUARD, MCSG, VERITAS
+export UASYS_NO_ROOT=FALAE
+export UASYS_DUPLICATE_PKG=TRUE
+export UASYS_64BIT=TRUE
+export UASYS_USE_SHMQ=FALSE
+export UASYS_USE_SSL=TRUE
+
+export UASYS_HOME=$HOME/HOME
+export UASYS_EXE_HOME=$HOME/HOME
+export UALIB_SRC_HOME=$HOME/UALIB
+export OAM_SRC_HOME=$HOME/OAM
+export LINUX_KERNEL_VERSION=`uname -a| awk '{print $3}'| cut -c1-3`
+
+#export CVSROOT=:pserver:hascp@camel:/data3/cvsroot_uahlr
+
+#########################################################
+# Environement for MySQL
+#########################################################
+export MYSQL_HOME=/usr/local/mysql
+export MYSQL_INCLUDE=$MYSQL_HOME/include
+export MYSQL_LIB=$MYSQL_HOME/lib
+#export MYSQL_VERSION=4.1
+
+export PATH=$PATH:$MYSQL_HOME/bin
+export LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:${MYSQL_HOME}/lib
+
+	
+#if ( $?prompt ) then
+#    echo :
+#    echo :
+#    echo :  SKT HASCP DEVELOPMENT ENVIRONMENT
+#    echo :
+#    echo :
+#    echo :
+#endif

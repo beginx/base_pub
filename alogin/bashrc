@@ -1,0 +1,30 @@
+HOSTNAME=`hostname`
+export HOSTNAME
+PS1='$HOSTNAME:$PWD> '
+export PS1
+CVSROOT=/home/cvs
+export CVSROOT
+EDITOR=vi
+export EDITOR
+#sh /opt/rational/purifyplus_setup.sh
+alias ls="ls --color -shF"
+alias ll='ls -altr'
+
+alias exp='explorer .'
+alias cwork='cd /cygdrive/d/workspace'
+alias cdesk='cd /cygdrive/c/User/user/Desk*'
+
+stty cs8 -parenb -ixany -istrip
+export NLS_LANG=American_America.KO16KSC5601
+#export PURIFYOPTIONS='-view-file=./%v.pv'
+#set -o vi
+
+export LANG=ko_KR.eucKR
+export ALOGIN_ROOT=~/alogin/
+source ~/alogin/alogin_env.sh
+
+export PATH=$PATH:~/mscript
+
+source ~/uaoss/uaoam/env/uaoam_dev.sh
+#source ~/uaoss/uaoam/env/uaoam_env.sh
+source ~/mscript/startup.sh

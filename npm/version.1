@@ -1,0 +1,17 @@
+$ node -v
+
+강제로 캐시 삭제
+$ sudo npm cache clean -f
+
+$ sudo npm install -g n
+
+n 모듈을 사용하여 Nodejs 설치 (다른 버전의 Node.js 를 설치하려면 sudo n 5.11.0 이런식으로 명령어를 입력하면 됩니다)
+$ sudo n stable
+
+여기서 버전이 바뀌지 않았거나 에러가 발생한다면, 파일 링크를 직접 설정하세요.
+$ sudo ln -sf /usr/local/n/versions/node/6.0.0/bin/node /usr/bin/node
+
+
+$ npm -v
+
+$ sudo npm install -g npm
